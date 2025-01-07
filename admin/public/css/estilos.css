@@ -1,0 +1,99 @@
+.nav-link {
+    cursor: pointer;
+  }
+  label {
+    margin-bottom: 3px !important;
+  }
+  .form-control,
+  .form-select {
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+  }
+  .messagge_mant {
+    height: 100vh !important;
+  }
+  .select2-container--bootstrap-5 .select2-selection {
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+  }
+  .box_tramite {
+    border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    -ms-border-radius: 4px !important;
+    -o-border-radius: 4px !important;
+  }
+  .form-check-input:checked {
+    background-color: #87ad27 !important;
+    border-color: #7fa325 !important;
+  }
+  
+  /*animacion fondo login*/
+  .bg {
+    animation: slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #1f97d1 50%, #145a7e 50%);
+    bottom: 0;
+    left: -50%;
+    opacity: 0.5;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: -1;
+  }
+  
+  .bg2 {
+    animation-direction: alternate-reverse;
+    animation-duration: 4s;
+  }
+  
+  .bg3 {
+    animation-duration: 5s;
+  }
+  .content2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.25em;
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  .login_letter {
+    font-family: monospace;
+  }
+  .btn_login{
+      background-color: #3384AB;
+  }
+  .text_login{
+      color: #3384AB;
+  }
+  @keyframes slide {
+    0% {
+      transform: translateX(-25%);
+    }
+    100% {
+      transform: translateX(25%);
+    }
+  }
+  .border_input{
+      border-color:  transparent !important;
+  }
+  #imagen__prev_c,  #imagen__prev_e{
+    height: 150px;
+  width: 150px;
+  }
+#imagen__prev,#imagen__prev_edit{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#imagen__prev_modal,#imagen__prev_modal_edit{
+  width: 150px;
+}

@@ -1,0 +1,7 @@
+Options All -Indexes
+
+RewriteEngine On
+
+RewriteRule ^([a-zA-Z]+)$ index.php?url=$1
+
+ErrorDocument 404 /webugel/error404.html
