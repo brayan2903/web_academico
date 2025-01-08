@@ -21,50 +21,50 @@
 <!-- Particles Background Start -->
 <div id="particles-js">
     <div class="content-header">
-        <h1 class="text-white">Bienvenido a Nuestro Sitio</h1>
-        <p class="text-white">VICERRECTORADO ACADEMICO DE LA UNIVERSIDAD NACIONAL DEL ALTIPLANO</p>
+        <h1 class="text-white wow fadeInDown">Bienvenido a Nuestro Sitio</h1>
+        <p class="text-white wow fadeInDown">VICERRECTORADO ACADEMICO DE LA UNIVERSIDAD NACIONAL DEL ALTIPLANO</p>
     </div>
     <div class="content-categories mt-5">
     <div class="container-xxl py-4">
         <div class="container">
             <div class="row g-4 justify-content-center services">
                 <!-- Tarjeta 1 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.1s">
                     <a class="cat-item p-4 text-center rounded shadow" href="comunicados" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-bullhorn fa-2x text-primary mb-3"></i>
                         <p class="text-white small mb-0">CARGA ACADÉMICA<br>SISCAD</p>
                     </a>
                 </div>
                 <!-- Tarjeta 2 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.3s">
                     <a class="cat-item p-4 text-center rounded shadow" href="oficiosMultiples" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-paste fa-2x text-warning mb-3"></i>
                         <p class="text-white small mb-0">NIVELACIÓN<br>INGRESANTES</p>
                     </a>
                 </div>
                 <!-- Tarjeta 3 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.5s">
                     <a class="cat-item p-4 text-center rounded shadow" href="convocatorias" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-user-tie fa-2x text-success mb-3"></i>
                         <p class="text-white small mb-0">CURSOS Y<br>CERTIFICADOS</p>
                     </a>
                 </div>
                 <!-- Tarjeta 4 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.7s">
                     <a class="cat-item p-4 text-center rounded shadow" href="#" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-rectangle-list fa-2x text-info mb-3"></i>
                         <p class="text-white small mb-0">CAPACITACIONES</p>
                     </a>
                 </div>
                 <!-- Tarjeta 5 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.9s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.9s">
                     <a class="cat-item p-4 text-center rounded shadow" href="#" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-book-bookmark fa-2x text-danger mb-3"></i>
                         <p class="text-white small mb-0">DIPLOMADOS<br>VRA</p>
                     </a>
                 </div>
                 <!-- Tarjeta 6 -->
-                <div class="services col-lg-2 col-6 wow fadeInUp" data-wow-delay="1.1s">
+                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="1.1s">
                     <a class="cat-item p-4 text-center rounded shadow" href="reclamos" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-book-open fa-2x text-light mb-3"></i>
                         <p class="text-white small mb-0">ASISTENCIA<br>DOCENTES</p>
@@ -80,10 +80,10 @@
 
 <!-- Particles Background End -->
 <div class="container my-5">
-    <h2 class="text-center mb-4">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h2>
+<h2 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.50s">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h2>
     <div class="row g-4 justify-content-center">
         <!-- Dirección 1 -->
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 wow fadeInDown">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -97,7 +97,7 @@
             </div>
         </div>
         <!-- Dirección 2 -->
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 wow fadeInDown">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -111,7 +111,7 @@
             </div>
         </div>
         <!-- Dirección 3 -->
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 wow fadeInDown">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -125,7 +125,7 @@
             </div>
         </div>
         <!-- Dirección 4 -->
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6 wow fadeInDown">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -147,10 +147,10 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-9">
-                <h5 class="text-left p-3 border-bottom-style mb-5 wow fadeInLeft" data-wow-delay="0.8s">Publicaciones Recientes</h5>
+                <h5 class="text-left p-3 border-bottom-style mb-5 wow fadeInDown" data-wow-delay="0.8s">Publicaciones Recientes</h5>
                 <!-- aqui empieza los cuadros -->
-                <h5 class="text-left p-3 mb-5 wow fadeInLeft" data-wow-delay="0.8s">COMUNICADOS</h5>
-                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.9s">
+                <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">COMUNICADOS</h5>
+                <div class="tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
                     <!-- <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
@@ -165,8 +165,8 @@
 
                     <div class="pt-4"></div>
                     <!-- aqui empieza los cuadros -->
-                    <h5 class="text-left p-3 mb-5 wow fadeInLeft" data-wow-delay="0.8s">OFICIOS MULTIPLES</h5>
-                    <div class="pt-4 tab-class text-center wow fadeInUp" data-wow-delay="0.9s">
+                    <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">OFICIOS MULTIPLES</h5>
+                    <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
                         <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
@@ -182,7 +182,7 @@
                         </div>
                     </div>
                     <!-- aqui empieza los cuadros -->
-                    <div class="pt-4 tab-class text-center wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
                         <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
@@ -200,28 +200,64 @@
 
                 </div>
             </div>
+            <div class="col-lg-3 access__direct wow fadeInDown">
+            <h5 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.8s">Accesos Directos</h5>
+            <div class="text-center mb-4">
+                <a href="" class="d-block mb-3"><img src="./public/img/icons/boleta.jpg" alt="Boleta" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
+                <a href="" class="d-block mb-3"><img src="./public/img/icons/asistencia.jpg" alt="Asistencia" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
+                <a href="" class="d-block mb-3"><img src="./public/img/icons/intranet.jpg" alt="Intranet" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
+            </div>
 
-
-            <div class="col-lg-3 access__direct">
-                <h5 class="text-center p-3 border-bottom-style mb-2 wow fadeInRight " data-wow-delay="0.8s">Accesos Directos</h5>
-                <a href="" class=""><img src="./public/img/icons/boleta.jpg" alt="" class="img-fluid mb-3   wow fadeInRight" data-wow-delay="0.8s"></a>
-                <a href="" class=""><img src="./public/img/icons/asistencia.jpg" alt="" class="img-fluid mb-3  wow fadeInRight" data-wow-delay="0.8s"></a>
-                <a href="" class=""><img src="./public/img/icons/intranet.jpg" alt="" class="img-fluid mb-3   wow fadeInRight" data-wow-delay="0.8s"></a>
-                <h5 class="text-center p-3 border-bottom-style mb-2 wow fadeInRight " data-wow-delay="0.8s">Redes Sociales</h5>
-                <div class="w-100">
-                    <div class="fb-page wow fadeInLeft" data-wow-delay="0.6s" data-href="https://www.facebook.com/ugelyunguyooficial2023/" data-tabs="timeline" data-width="420" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                        <blockquote cite="https://www.facebook.com/ugelyunguyooficial2023/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ugelyunguyooficial2023/">UGEL Yunguyo 2023</a></blockquote>
-                    </div>
+            <h5 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.8s">Redes Sociales</h5>
+            <div class="w-100 text-center">
+                <!-- Plugin de página de Facebook -->
+                <div class="fb-page"
+                    data-href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP"
+                    data-tabs="timeline"
+                    data-width="300"
+                    data-height="600"
+                    data-small-header="false"
+                    data-adapt-container-width="true"
+                    data-hide-cover="false"
+                    data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP">Vicerrectorado Académico VRA UNAP</a>
+                    </blockquote>
                 </div>
             </div>
+        </div>
+
+        <!-- Script del SDK de Facebook -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"></script>
+
         </div>
     </div>
 </div>
 
+<div class="container my-5">
+    <h3 class="text-center mb-4">Nuestro Canal de YouTube</h3>
+    <div class="text-center">
+        <!-- Embed del canal de YouTube -->
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed?listType=user_uploads&list=VRAUNAP" 
+            title="Canal de YouTube - VRA UNAP" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+        <p class="mt-3">
+            Visita nuestro canal para más contenido educativo y académico: 
+            <a href="https://www.youtube.com/@VRAUNAP" target="_blank">VRA UNAP</a>
+        </p>
+    </div>
+</div>
 
 
 <!-- Testimonial Start -->
-<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+<div class="container-xxl py-5 wow fadeInDown" data-wow-delay="0.1s">
     <div class="container">
         <h3 class="text-center mb-5 p-3 border-bottom-style">Enlaces de Interes</h3>
         <div class="owl-carousel testimonial-carousel">
@@ -312,12 +348,15 @@
 }
 
     #particles-js {
-    position: relative;
-    width: 100%;
-    height: 500px; /* Altura ajustada */
-    background-color: #000; /* Fondo negro */
-    overflow: hidden;
-    z-index: 1; /* Fondo al nivel más bajo */
+        position: relative;
+        width: 100%;
+        height: 500px; /* Altura ajustada */
+        background-image: url('./public/img/fondo_boreal.jpg'); /* Reemplaza esto con la ruta correcta */
+        background-size: cover; /* Asegura que la imagen cubra todo el área */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        overflow: hidden;
+        z-index: 1; /* Fondo al nivel más bajo */
     }
 
     .content-header {

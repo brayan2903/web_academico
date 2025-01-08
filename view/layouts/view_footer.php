@@ -29,7 +29,7 @@
     <div class="container">
         <div class="copyright d-flex justify-content-center">
             <div class="row justify-content-center">
-                <span>Copyright <i class="fa-regular fa-copyright w-auto"></i> 2023<a href="./"> Unidad de Gestión Educativa Local Yunguyo</a></span>
+                <span>Copyright <i class="fa-regular fa-copyright w-auto"></i> 2025<a href="./"> Vicerrectorado Academico</a></span>
             </div>
         </div>
     </div>
