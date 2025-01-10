@@ -115,7 +115,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">Informacion</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="comunicados" class="dropdown-item">Comunicados</a>
+                            <a href="comunicados" class="dropdown-item">Eventos</a>
                             <a href="oficiosMultiples" class="dropdown-item">Oficios Multiples</a>
                         </div>
                     </div>

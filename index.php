@@ -116,7 +116,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">Informacion</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="comunicados" class="dropdown-item">Comunicados</a>
+                            <a href="eventos" class="dropdown-item">Eventos</a>
                             <a href="oficiosMultiples" class="dropdown-item">Oficios Multiples</a>
                         </div>
                     </div>
@@ -174,7 +174,7 @@
                 case "convocatoriasCap":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "comunicados":
+                case "eventos":
                     include "view/modules/comunicados/" . $_GET["url"] . ".php";
                     break;
                 case "oficiosMultiples":
@@ -218,7 +218,7 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Enlaces Rapidos</h5>
                 <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>
-                <a class="btn btn-link text-white-50" href="comunicados">Comunicados</a>
+                <a class="btn btn-link text-white-50" href="eventos">Eventos</a>
                 <a class="btn btn-link text-white-50" href="oficiosMultiples">Oficios Multiples</a>
             </div>
             <div class="col-lg-3 col-md-6">

@@ -5,13 +5,13 @@
         <nav aria-label="breadcrumb" class="pb-2">
             <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item">Portal Web</li>
-                <li class="breadcrumb-item">Comunicados</li>
+                <li class="breadcrumb-item">Eventos</li>
             </ol>
         </nav>
         <!-- Table with toolbar -->
         <div class="card">
             <div class="card-header ">
-                <h5 class="card-title mb-3">PANEL ADMINISTRATIVO DE COMUNICADOS</h5>
+                <h5 class="card-title mb-3">PANEL ADMINISTRATIVO DE EVENTOS</h5>
                 <div class="row ">
 
                     <!-- Left toolbar -->
@@ -59,7 +59,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">REGISTRO DE COMUNICADO</h5>
+                <h5 class="modal-title" id="exampleModalLabel">REGISTRO DE EVENTO</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -98,7 +98,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">EDITAR COMUNICADO</h5>
+                <h5 class="modal-title" id="exampleModalLabel">EDITAR EVENTO</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -145,7 +145,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="lbl_titulo_datos">MAS DATOS DEL COMUNICADO</h5>
+                <h5 class="modal-title" id="lbl_titulo_datos">MAS DATOS DEL EVENTO</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

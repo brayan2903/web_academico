@@ -6,7 +6,7 @@
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                 <a class="cat-item rounded p-4" href="comunicados">
                     <i class="fa-solid fa-bullhorn fa-3x text-primary mb-4"></i>
-                    <h6 class="mb-3">Comunicados</h6>
+                    <h6 class="mb-3">Eventos</h6>
                 </a>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">

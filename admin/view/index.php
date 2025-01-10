@@ -237,9 +237,9 @@ if (!isset($_SESSION['S_ID'])) {
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a onclick="cargar_contenido('content','modules/comunicados/comunicados.php')" class="nav-link mininav-toggle"><i class="bi bi-archive fs-5 me-2"></i>
+                                    <a onclick="cargar_contenido('content','modules/comunicados/eventos.php')" class="nav-link mininav-toggle"><i class="bi bi-archive fs-5 me-2"></i>
 
-                                        <span class="nav-label mininav-content ms-1">Comunicados</span>
+                                        <span class="nav-label mininav-content ms-1">Eventos</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -307,7 +307,7 @@ if (!isset($_SESSION['S_ID'])) {
                                 <li class="nav-item">
                                     <a onclick="cargar_contenido('content','modules/modal/modal.php')" class="nav-link mininav-toggle"><i class="bi bi-megaphone fs-5 me-2"></i>
 
-                                        <span class="nav-label mininav-content ms-1">Comunicado Modal</span>
+                                        <span class="nav-label mininav-content ms-1">Eventos Modal</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">

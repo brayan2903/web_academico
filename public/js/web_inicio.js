@@ -29,7 +29,7 @@ function traer_recientes_comunicados() {
                 </div>`;
             }
             cadena += '</div>'; // Cierra la fila
-            cadena += '<div class="text-center mt-4"><a class="btn btn-primary btn-rounded" href="comunicados"><i class="fa-solid fa-plus me-2"></i>Más Comunicados</a></div>';
+            cadena += '<div class="text-center mt-4"><a class="btn btn-primary btn-rounded" href="eventos"><i class="fa-solid fa-plus me-2"></i>Más Eventos</a></div>';
             document.getElementById("tab-1").innerHTML = cadena;
         }
     });

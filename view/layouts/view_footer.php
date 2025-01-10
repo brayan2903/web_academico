@@ -11,7 +11,7 @@
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Enlaces Rapidos</h5>
                 <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>
-                <a class="btn btn-link text-white-50" href="comunicados">Comunicados</a>
+                <a class="btn btn-link text-white-50" href="comunicados">Eventos</a>
                 <a class="btn btn-link text-white-50" href="oficiosMultiples">Oficios Multiples</a>
             </div>
             <div class="col-lg-3 col-md-6">
