@@ -5,13 +5,13 @@
         <nav aria-label="breadcrumb" class="pb-2">
             <ol class="breadcrumb mb-0">
                 <li class="breadcrumb-item">Portal Web</li>
-                <li class="breadcrumb-item">Oficios Multiples</li>
+                <li class="breadcrumb-item">Noticias</li>
             </ol>
         </nav>
         <!-- Table with toolbar -->
         <div class="card">
             <div class="card-header ">
-                <h5 class="card-title mb-3">PANEL ADMINISTRATIVO DE OFICIOS MULTIPLES</h5>
+                <h5 class="card-title mb-3">PANEL ADMINISTRATIVO DE NOTICIAS</h5>
                 <div class="row ">
 
                     <!-- Left toolbar -->

@@ -65,7 +65,7 @@ function traer_recientes_oficios() {
                 </div>`;
             }
             cadena += '</div>'; // Cierra la fila
-            cadena += '<div class="text-center mt-4"><a class="btn btn-primary btn-rounded" href="oficiosMultiples"><i class="fa-solid fa-plus me-2"></i>Más Oficios</a></div>';
+            cadena += '<div class="text-center mt-4"><a class="btn btn-primary btn-rounded" href="noticias"><i class="fa-solid fa-plus me-2"></i>Más Noticias</a></div>';
             document.getElementById("tab-2").innerHTML = cadena;
         }
     });

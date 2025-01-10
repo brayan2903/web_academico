@@ -116,7 +116,7 @@
                         <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">Informacion</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="comunicados" class="dropdown-item">Eventos</a>
-                            <a href="oficiosMultiples" class="dropdown-item">Oficios Multiples</a>
+                            <a href="noticias" class="dropdown-item">Noticias</a>
                         </div>
                     </div>
                     <a href="servicio" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Servicio</a>

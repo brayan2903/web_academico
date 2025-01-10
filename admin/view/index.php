@@ -245,7 +245,7 @@ if (!isset($_SESSION['S_ID'])) {
                                 <li class="nav-item">
                                     <a onclick="cargar_contenido('content','modules/oficios/oficios.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
 
-                                        <span class="nav-label mininav-content ms-1">Oficios Multiples</span>
+                                        <span class="nav-label mininav-content ms-1">Noticias</span>
                                     </a>
                                 </li>
                                 <li class="nav-item has-sub">

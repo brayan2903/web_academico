@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 bg-primary border rounded-pill mb-5">
-                <h5 class="text-white text-center p-2 animated slideInLeft mb-0">Oficios Multiples</h5>
+                <h5 class="text-white text-center p-2 animated slideInLeft mb-0">Noticias</h5>
             </div>
             <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="row gap-3" id="contenet__comunicados">

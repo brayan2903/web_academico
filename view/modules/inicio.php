@@ -37,7 +37,7 @@
                 </div>
                 <!-- Tarjeta 2 -->
                 <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.3s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="oficiosMultiples" style="background-color: rgba(0, 0, 128, 0.8);">
+                    <a class="cat-item p-4 text-center rounded shadow" href="noticias" style="background-color: rgba(0, 0, 128, 0.8);">
                         <i class="fa-solid fa-paste fa-2x text-warning mb-3"></i>
                         <p class="text-white small mb-0">NIVELACIÓN<br>INGRESANTES</p>
                     </a>
@@ -165,12 +165,12 @@
 
                     <div class="pt-4"></div>
                     <!-- aqui empieza los cuadros -->
-                    <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">OFICIOS MULTIPLES</h5>
+                    <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">NOTICIAS</h5>
                     <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
                         <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                    <h6 class="mt-n1 mb-0">Oficios Multiples</h6>
+                                    <h6 class="mt-n1 mb-0">Noticias</h6>
                                 </a>
                             </li>
                         </ul>

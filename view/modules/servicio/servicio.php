@@ -10,9 +10,9 @@
                 </a>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                <a class="cat-item rounded p-4" href="oficiosMultiples">
+                <a class="cat-item rounded p-4" href="noticias">
                     <i class="fa-solid fa-paste fa-3x text-primary mb-4"></i>
-                    <h6 class="mb-3">Oficios Multiples</h6>
+                    <h6 class="mb-3">Noticias</h6>
                 </a>
             </div>
             <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
