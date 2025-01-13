@@ -318,6 +318,46 @@ if (!isset($_SESSION['S_ID'])) {
                                 </li>
                                 <!-- END : Regular menu link -->
                             <?php } ?>
+                            <?php if ($_SESSION['S_ROL'] == 'Publicador') { ?>
+                                <li class="nav-item ">
+                                    <a onclick="cargar_contenido('content','modules/inicio.php')" class="nav-link active mininav-toggle"><i class="bi bi-house-door fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">Inicio</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/comunicados/eventos.php')" class="nav-link mininav-toggle"><i class="bi bi-archive fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">Eventos</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/oficios/oficios.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">Noticias</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/modal/modal.php')" class="nav-link mininav-toggle"><i class="bi bi-megaphone fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">Eventos Modal</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/convocatorias/convocatoriasCas.php')" class="nav-link mininav-toggle"><i class="bi bi-megaphone fs-5 me-2"></i>
+                                        <span class="nav-label mininav-content ms-1">Convocatorias</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
+                            <?php if ($_SESSION['S_ROL'] == 'Vicerrector') { ?>
+                                <!-- Opciones exclusivas del Rol "Vice" -->
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/comunicados/eventos.php')" class="nav-link mininav-toggle">
+                                        <i class="bi bi-calendar2-event fs-5 me-2"></i>
+                                        <span class="nav-label mininav-content ms-1">Eventos</span>
+                                    </a>
+                                </li>
+                            <?php } ?>
 
                         </ul>
                     </div>

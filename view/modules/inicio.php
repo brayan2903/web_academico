@@ -235,7 +235,46 @@
     </div>
 </div>
 
-<div class="container my-5">
+<div class="container-fluid bg-primary py-5 wow fadeInDown">
+    <div class="container">
+        <div class="row text-center text-white">
+            <!-- Primera columna -->
+            <div class="col-md-2 col-6 mb-4">
+                <i class="fa-solid fa-school fa-3x mb-3 text-white"></i>
+                <h4 class="mb-1 text-white">11</h4>
+                <p class="mb-0">Facultades</p>
+            </div>
+            <!-- Segunda columna -->
+            <div class="col-md-2 col-6 mb-4">
+                <i class="fa-solid fa-graduation-cap fa-3x mb-3 text-white"></i>
+                <h4 class="mb-1 text-white">30</h4>
+                <p class="mb-0">Carreras Profesionales</p>
+            </div>
+            <!-- Tercera columna -->
+            <div class="col-md-2 col-6 mb-4">
+                <i class="fa-solid fa-user-tie fa-3x mb-3 text-white"></i>
+                <h4 class="mb-1 text-white">104</h4>
+                <p class="mb-0">Investigadores RENACYT</p>
+            </div>
+            <!-- Cuarta columna -->
+            <div class="col-md-2 col-6 mb-4">
+                <i class="fa-solid fa-file-alt fa-3x mb-3 text-white"></i>
+                <h4 class="mb-1 text-white">1661</h4>
+                <p class="mb-0">Artículos SCOPUS</p>
+            </div>
+            <!-- Quinta columna -->
+            <div class="col-md-2 col-6 mb-4">
+                <i class="fa-solid fa-scroll fa-3x mb-3 text-white"></i>
+                <h4 class="mb-1 text-white">202</h4>
+                <p class="mb-0">Patentes Registradas</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container my-5 wow fadeInDown">
     <h3 class="text-center mb-4">Nuestro Canal de YouTube</h3>
     <div class="text-center">
         <!-- Embed del canal de YouTube -->
@@ -259,7 +298,7 @@
 <!-- Testimonial Start -->
 <div class="container-xxl py-5 wow fadeInDown" data-wow-delay="0.1s">
     <div class="container">
-        <h3 class="text-center mb-5 p-3 border-bottom-style">Enlaces de Interes</h3>
+        <h3 class="text-center mb-5 p-3 border-bottom-style">Servicios en linea</h3>
         <div class="owl-carousel testimonial-carousel">
             <div class="testimonial-item">
                 <a href="#">
