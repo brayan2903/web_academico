@@ -86,41 +86,42 @@
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
                     <a href="./" class="nav-item nav-link active wow fadeInDown" data-wow-delay="0.1s">Inicio</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-bs-toggle="dropdown" data-wow-delay="0.2s">Institucional</a>
+                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-bs-toggle="dropdown" data-wow-delay="0.2s">El VRA</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="nosotros" class="dropdown-item">Sobre Nosotros</a>
-                            <a href="directorio" class="dropdown-item">Directorio</a>
-                            <a href="documentosdegestion" class="dropdown-item">Instrumentos de Gestión</a>
-                            <a href="organigrama" class="dropdown-item">Organigrama</a>
+                            <a href="vra" class="dropdown-item">Acerca del VRA</a>
+                            <a href="NuestroVicerrector" class="dropdown-item">Nuestro vicerrector</a>
+                            <a href="misionyvision" class="dropdown-item">misión y visión</a>
+                            <a href="organigramvra" class="dropdown-item">Organigrama</a>
+                        </div>
+                    </div>
+                    <a href="autoridades" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Autoridades</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.3s" data-bs-toggle="dropdown">Dependencias</a>
+                        <div class="dropdown-menu rounded-0 m-0 p-0">
+                            <a href="dgea" class="dropdown-item">Dirección de gestión académica</a>
+                            <a href="dad" class="dropdown-item">Dirección de Admisión</a>
+                            <a href="dibu" class="dropdown-item">Dirección de Bienestar Universitaria</a>
+                            <a href="dipec" class="dropdown-item">Dirección de proyección social y extención cultural</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.3s" data-bs-toggle="dropdown">Areas</a>
+                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.4s" data-bs-toggle="dropdown">Pregrado</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="administracion" class="dropdown-item">Administración</a>
-                            <a href="gestionInstitucional" class="dropdown-item">Area de Gestión Institucional</a>
-                            <a href="gestionPedagogica" class="dropdown-item">Area de Gestión Pedagogica</a>
-                            <a href="asesoriaJuridica" class="dropdown-item">Area de Asesoria Juridica</a>
+                            <a href="areas" class="dropdown-item">areas de estudio</a>
+                            <a href="escuelasprofesionales" class="dropdown-item">Escuelas Profesionales</a>
+                            <a href="filiales" class="dropdown-item">Filiales</a>
+                            <a href="departamentos" class="dropdown-item">Departamentos Academicos</a>
+                            <a href="convocatoriasCap" class="dropdown-item">Directorio</a>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.4s" data-bs-toggle="dropdown">Convocatorias</a>
+                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">institucionales</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="convocatoriasCas" class="dropdown-item">Convocatorias CAS</a>
-                            <a href="convocatoriasDocente" class="dropdown-item">Convocatorias Docentes</a>
-                            <a href="convocatoriasAuxiliar" class="dropdown-item">Convocatorias Auxiliares</a>
-                            <a href="convocatoriasDirectivos" class="dropdown-item">Convocatorias Directivos</a>
-                            <a href="convocatoriasCap" class="dropdown-item">Convocatorias CAP</a>
+                            <a href="eventos" class="dropdown-item">estatuto</a>
+                            <a href="noticias" class="dropdown-item">normativa</a>
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">Informacion</a>
-                        <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="eventos" class="dropdown-item">Eventos</a>
-                            <a href="noticias" class="dropdown-item">Noticias</a>
-                        </div>
-                    </div>
-                    <a href="servicio" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Servicio</a>
+                    <a href="servicio" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Documentos</a>
                 </div>
             </div>
         </nav>
@@ -132,6 +133,50 @@
                 case "inicio":
                     include "view/modules/" . $_GET["url"] . ".php";
                     break;
+                case "acercavra":
+                    include "view/modules/institucional/" . $_GET["url"] . ".php";
+                    break;
+                case "vra":
+                    include "view/modules/vra/" . $_GET["url"] . ".php";
+                    break;
+                case "NuestroVicerrector":
+                    include "view/modules/vra/" . $_GET["url"] . ".php";
+                    break;
+                case "misionyvision":
+                    include "view/modules/vra/" . $_GET["url"] . ".php";
+                    break;
+                case "organigramvra":
+                    include "view/modules/vra/" . $_GET["url"] . ".php";
+                    break;
+                case "autoridades":
+                    include "view/modules/vra/" . $_GET["url"] . ".php";
+                    break;
+                case "dgea":
+                    include "view/modules/direcciones/" . $_GET["url"] . ".php";
+                    break;
+                case "dad":
+                    include "view/modules/direcciones/" . $_GET["url"] . ".php";
+                    break;
+                case "dibu":
+                    include "view/modules/direcciones/" . $_GET["url"] . ".php";
+                    break;
+                case "dipec":
+                    include "view/modules/direcciones/" . $_GET["url"] . ".php";
+                    break;
+                case "areas":
+                    include "view/modules/pregrado/" . $_GET["url"] . ".php";
+                    break;
+                case "escuelasprofesionales":
+                    include "view/modules/pregrado/" . $_GET["url"] . ".php";
+                    break;
+                case "filiales":
+                    include "view/modules/pregrado/" . $_GET["url"] . ".php";
+                    break;
+                case "departamentos":
+                    include "view/modules/pregrado/" . $_GET["url"] . ".php";
+                    break;
+
+                    
                 case "nosotros":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
                     break;

@@ -4,7 +4,8 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Institucional</h5>
-                <a class="btn btn-link text-white-50" href="nosotros">Sobre Nosotros</a>
+                <a class="btn btn-link text-white-50" href="vra">Sobre Nosotros</a>
+                <a class="btn btn-link text-white-50" href="acerca_vra">acaerca del vra</a>
                 <a class="btn btn-link text-white-50" href="directorio">Directorio Institucional</a>
                 <a class="btn btn-link text-white-50" href="documentosdegestion">Documentos de Gestion</a>
             </div>
