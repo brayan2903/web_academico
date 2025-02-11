@@ -84,9 +84,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="./" class="nav-item nav-link active wow fadeInDown" data-wow-delay="0.1s">Inicio</a>
+                    <a href="./" class="nav-item nav-link active wow zoomIn" data-wow-delay="0.1s">Inicio</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-bs-toggle="dropdown" data-wow-delay="0.2s">El VRA</a>
+                        <a href="#" class="nav-link dropdown-toggle wow zoomIn" data-bs-toggle="dropdown" data-wow-delay="0.1s">El VRA</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="vra" class="dropdown-item">Acerca del VRA</a>
                             <a href="NuestroVicerrector" class="dropdown-item">Nuestro vicerrector</a>
@@ -94,9 +94,9 @@
                             <a href="organigramvra" class="dropdown-item">Organigrama</a>
                         </div>
                     </div>
-                    <a href="autoridades" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Autoridades</a>
+                    <a href="autoridades" class="nav-item nav-link wow zoomIn" data-wow-delay="0.1s">Autoridades</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.3s" data-bs-toggle="dropdown">Dependencias</a>
+                        <a href="#" class="nav-link dropdown-toggle wow zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Dependencias</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="dgea" class="dropdown-item">Dirección de gestión académica</a>
                             <a href="dad" class="dropdown-item">Dirección de Admisión</a>
@@ -105,7 +105,7 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.4s" data-bs-toggle="dropdown">Pregrado</a>
+                        <a href="#" class="nav-link dropdown-toggle wow zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Pregrado</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="areas" class="dropdown-item">areas de estudio</a>
                             <a href="escuelasprofesionales" class="dropdown-item">Escuelas Profesionales</a>
@@ -115,13 +115,13 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle wow fadeInDown" data-wow-delay="0.5s" data-bs-toggle="dropdown">institucionales</a>
+                        <a href="#" class="nav-link dropdown-toggle wow zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">institucionales</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="eventos" class="dropdown-item">estatuto</a>
                             <a href="noticias" class="dropdown-item">normativa</a>
                         </div>
                     </div>
-                    <a href="servicio" class="nav-item nav-link wow fadeInDown" data-wow-delay="0.6s">Documentos</a>
+                    <a href="servicio" class="nav-item nav-link wow zoomIn" data-wow-delay="0.1s">Documentos</a>
                 </div>
             </div>
         </nav>

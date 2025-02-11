@@ -14,8 +14,8 @@ function traer_slider() {
                 cadena += '<div class="carousel-item ' + activeClass + '">'+
                     '<img src="admin/' + data[i]["slider_imagen"] + '" class="d-block w-100 img-fluid" alt="...">'+
                     '<div class="carousel-caption d-none d-md-block">'+
-                        '<h4 class="text-white wow fadeIn" data-wow-delay="0.3s">' + data[i]["slider_titulo"] + '</h4>'+
-                        '<p class="wow fadeInUp" data-wow-delay="0.3s">' + data[i]["slider_descripcion"] + '</p>'+
+                        '<h4 class="text-white wow fadeIn" data-wow-delay="0.1s">' + data[i]["slider_titulo"] + '</h4>'+
+                        '<p class="wow fadeInUp" data-wow-delay="0.1s">' + data[i]["slider_descripcion"] + '</p>'+
                     '</div>'+
                 '</div>';
                 isFirstElement = false;

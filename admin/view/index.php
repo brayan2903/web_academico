@@ -254,6 +254,18 @@ if (!isset($_SESSION['S_ID'])) {
                                         <span class="nav-label mininav-content ms-1">Convocatorias</span>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosCas.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">documentos cas</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosDirectivos.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">documentos direc</span>
+                                    </a>
+                                </li>
                                 <li class="nav-item has-sub">
                                     <a href="#" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
                                         <span class="nav-label ms-1">Convocatorias</span>

@@ -80,7 +80,10 @@
 
 <!-- Particles Background End -->
 <div class="container my-5">
-<h2 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.50s">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h2>
+
+
+<h2 class="text-center p-3 border-bottom-style mb-4 wow zoomIn" data-wow-delay="0.1s">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h2>
+
     <div class="row g-4 justify-content-center">
         <!-- Dirección 1 -->
         <div class="col-lg-3 col-md-6 wow fadeInDown">
