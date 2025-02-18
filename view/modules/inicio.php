@@ -29,45 +29,57 @@
         <div class="container">
             <div class="row g-4 justify-content-center services">
                 <!-- Tarjeta 1 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.1s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="eventos" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-bullhorn fa-2x text-primary mb-3"></i>
-                        <p class="text-white small mb-0">CARGA ACADÉMICA<br>SISCAD</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.1s">
+                    <a class="category-item" href="eventos">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Carga Académica" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">CARGA ACADÉMICA<br>SISCAD</p>
                     </a>
                 </div>
                 <!-- Tarjeta 2 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.3s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="noticias" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-paste fa-2x text-warning mb-3"></i>
-                        <p class="text-white small mb-0">NIVELACIÓN<br>INGRESANTES</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.3s">
+                    <a class="category-item" href="noticias">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Nivelación Ingresantes" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">NIVELACIÓN<br>INGRESANTES</p>
                     </a>
                 </div>
                 <!-- Tarjeta 3 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.5s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="convocatorias" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-user-tie fa-2x text-success mb-3"></i>
-                        <p class="text-white small mb-0">CURSOS Y<br>CERTIFICADOS</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.5s">
+                    <a class="category-item" href="convocatorias">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Cursos y Certificados" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">CURSOS Y<br>CERTIFICADOS</p>
                     </a>
                 </div>
                 <!-- Tarjeta 4 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.7s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="#" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-rectangle-list fa-2x text-info mb-3"></i>
-                        <p class="text-white small mb-0">CAPACITACIONES</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.7s">
+                    <a class="category-item" href="#">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Capacitaciones" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">CAPACITACIONES</p>
                     </a>
                 </div>
                 <!-- Tarjeta 5 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="0.9s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="#" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-book-bookmark fa-2x text-danger mb-3"></i>
-                        <p class="text-white small mb-0">DIPLOMADOS<br>VRA</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.9s">
+                    <a class="category-item" href="#">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Diplomados VRA" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">DIPLOMADOS<br>VRA</p>
                     </a>
                 </div>
                 <!-- Tarjeta 6 -->
-                <div class="services col-lg-2 col-6 wow fadeInDown" data-wow-delay="1.1s">
-                    <a class="cat-item p-4 text-center rounded shadow" href="reclamos" style="background-color: rgba(0, 0, 128, 0.8);">
-                        <i class="fa-solid fa-book-open fa-2x text-light mb-3"></i>
-                        <p class="text-white small mb-0">ASISTENCIA<br>DOCENTES</p>
+                <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="1.1s">
+                    <a class="category-item" href="reclamos">
+                        <div class="category-box">
+                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Asistencia Docentes" class="category-logo">
+                        </div>
+                        <p class="category-text text-white">ASISTENCIA<br>DOCENTES</p>
                     </a>
                 </div>
             </div>
@@ -75,18 +87,58 @@
     </div>
 </div>
 
+<style>
+    .category-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .category-box {
+        background-color: rgba(255, 255, 255, 0.5); /* Blanco transparente */
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .category-logo {
+        max-width: 100%;
+        height: auto;
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .category-text {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+        text-align: center;
+    }
+
+    .category-item:hover .category-logo {
+        filter: grayscale(100%);
+    }
+</style>
+
 </div>
 
-
 <!-- Particles Background End -->
+<div class="container animated zoomIn" >
+        <h1 class="fw-bold" id="titulo">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h1>
+        <div class="linea-dividida" id="linea">
+            <div class="segmento"></div>
+            <div class="punto-blanco"></div>
+            <div class="segmento"></div>
+        </div>
+    </div>
+
 <div class="container my-5">
-
-
-<h2 class="text-center p-3 border-bottom-style mb-4 wow zoomIn" data-wow-delay="0.1s">DIRECCIONES DEL VICERRECTORADO ACADÉMICO</h2>
-
     <div class="row g-4 justify-content-center">
         <!-- Dirección 1 -->
-        <div class="col-lg-3 col-md-6 wow fadeInDown">
+        <div class="col-lg-3 col-md-6 animated zoomIn">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -100,7 +152,7 @@
             </div>
         </div>
         <!-- Dirección 2 -->
-        <div class="col-lg-3 col-md-6 wow fadeInDown">
+        <div class="col-lg-3 col-md-6 animated zoomIn">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -114,7 +166,7 @@
             </div>
         </div>
         <!-- Dirección 3 -->
-        <div class="col-lg-3 col-md-6 wow fadeInDown">
+        <div class="col-lg-3 col-md-6 animated zoomIn">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -128,7 +180,7 @@
             </div>
         </div>
         <!-- Dirección 4 -->
-        <div class="col-lg-3 col-md-6 wow fadeInDown">
+        <div class="col-lg-3 col-md-6 animated zoomIn">
             <div class="card text-center shadow-sm h-100">
                 <div class="card-body">
                     <div class="icon mb-3">
@@ -149,96 +201,170 @@
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
-                <h5 class="text-left p-3 border-bottom-style mb-5 wow fadeInDown" data-wow-delay="0.8s">Publicaciones Recientes</h5>
-                <!-- aqui empieza los cuadros -->
-                <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">EVENTOS</h5>
-                <div class="tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
-                    <!-- <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
-                        <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-                                <h6 class="mt-n1 mb-0">Comunicados</h6>
-                            </a>
-                        </li>
-                    </ul> -->
+            <!-- Accesos Directos -->
+            <div class="col-lg-12 access__direct animated zoomIn mb-4">
+                <!-- <h5 class="text-center p-3 border-bottom-style wow fadeInDown" data-wow-delay="0.8s">Accesos Directos</h5> -->
+                <h2 class="text-center p-3 border-bottom-style mb-4 animated zoomIn">Plataformas de Acceso Universitarias</h2>
+                <div class="text-center mb-4 d-flex justify-content-center gap-3">
+                    <a href="" class="d-block"><img src="./public/img/admision.png" alt="Boleta" class="img-fluid animated zoomIn" data-wow-delay="0.8s"></a>
+                    <a href="" class="d-block"><img src="./public/img/archivoacade.png" alt="Asistencia" class="img-fluid animated zoomIn" data-wow-delay="0.8s"></a>
+                    <a href="" class="d-block"><img src="./public/img/bibliotecasunap.png" alt="Intranet" class="img-fluid animated zoomIn" data-wow-delay="0.8s"></a>
+                    <a href="" class="d-block"><img src="./public/img/bibliotecasunap.png" alt="Intranet" class="img-fluid animated zoomIn" data-wow-delay="0.8s"></a>
+                    <a href="" class="d-block"><img src="./public/img/bibliotecasunap.png" alt="Intranet" class="img-fluid animated zoomIn" data-wow-delay="0.8s"></a>
+                </div>
+            </div>
+            
+            <!-- Publicaciones Recientes -->
+             
+            <div class="col-lg-12">
+                <h5 class="text-left p-3 border-bottom-style mb-5 animated zoomIn" data-wow-delay="0.8s"></h5><br>
+                <!-- <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">EVENTOS</h5> -->
+                <!-- <h2 class="text-center p-3  wow zoomIn" data-wow-delay="0.1s">EVENTOS VICERRECTORADOA CADEMICO</h2> -->
+
+                <div class="container animated zoomIn" >
+                    <h2 class="fw-bold" id="titulo">EVENTOS VICERRECTORADO ACADEMICO</h2>
+                    <div class="linea-dividida" id="linea">
+                        <div class="segmento"></div>
+                        <div class="punto-blanco"></div>
+                        <div class="segmento"></div>
+                    </div>
+                </div>
+
+                <div class="tab-class text-center animated zoomIn" data-wow-delay="0.9s">
                     <div class="tab-content mt-4">
                         <div id="tab-1" class="tab-pane fade show p-0 active"></div>
                         <div id="tab-3" class="tab-pane fade show p-0"></div>
                     </div>
-
                     <div class="pt-4"></div>
-                    <!-- aqui empieza los cuadros -->
-                    <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">NOTICIAS</h5>
-                    <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
-                        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
+                    <!-- <h5 class="text-left p-3 mb-5 wow fadeInDown" data-wow-delay="0.8s">NOTICIAS</h5> -->
+                     <br>
+                     <br>
+                     
+                    <!-- <h2 class="text-center p-3  wow zoomIn" data-wow-delay="0.1s">NOTICIAS VICERRECTORADOA CADEMICO</h2> -->
+
+
+
+                    <div class="container animated zoomIn" >
+                        <h2 class="fw-bold" id="titulo">NOTICIAS VICERRECTORADOA CADEMICO</h2>
+                        <div class="linea-dividida" id="linea">
+                            <div class="segmento"></div>
+                            <div class="punto-blanco"></div>
+                            <div class="segmento"></div>
+                        </div>
+                    </div>
+
+                    <div class="pt-4 tab-class text-center animated zoomIn" data-wow-delay="0.9s">
+                        <!-- <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                             <li class="nav-item">
                                 <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
                                     <h6 class="mt-n1 mb-0">Noticias</h6>
                                 </a>
                             </li>
-                        </ul>
-                        <div class="tab-content2">
-                            <div id="tab-2" class="tab-pane fade show p-0 "></div>
-                        </div>
+                        </ul> -->
                         <div class="tab-content2">
                             <div id="tab-2" class="tab-pane fade show p-0 active"></div>
                         </div>
                     </div>
-                    <!-- aqui empieza los cuadros -->
-                    <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
+                    <!-- <div class="pt-4 tab-class text-center wow fadeInDown" data-wow-delay="0.9s">
                         <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5 gap-3 ">
                             <li class="nav-item">
-                                <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                    <h6 class="mt-n1 mb-0">convocatorias</h6>
+                                <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                    <h6 class="mt-n1 mb-0">Convocatorias</h6>
                                 </a>
                             </li>
                         </ul>
                         <div class="tab-content2">
-                            <div id="tab-3" class="tab-pane fade show p-0 "></div>
-                        </div>
-                        <div class="tab-content2">
                             <div id="tab-3" class="tab-pane fade show p-0 active"></div>
                         </div>
+                    </div> -->
+                </div>
+            </div>
+            
+            <!-- Redes Sociales -->
+            <div class="container text-center animated zoomIn mt-4">
+            <div class="container animated zoomIn" >
+        <h1 class="fw-bold" id="titulo">Redes Sociales</h1>
+        <div class="linea-dividida" id="linea">
+            <div class="segmento"></div>
+            <div class="punto-blanco"></div>
+            <div class="segmento"></div>
+        </div>
+    </div><br><br>
+
+                <div class="row justify-content-center">
+                    <!-- Facebook -->
+                    <div class="col-md-4">
+                        <h6 class="mb-3">Síguenos en Facebook</h6>
+                        <div class="fb-page"
+                            data-href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP"
+                            data-tabs="timeline"
+                            data-width="320"
+                            data-height="350"
+                            data-small-header="false"
+                            data-adapt-container-width="true"
+                            data-hide-cover="false"
+                            data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP" class="fb-xfbml-parse-ignore">
+                                <a href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP">Vicerrectorado Académico VRA UNAP</a>
+                            </blockquote>
+                        </div>
+                        <p class="mt-2">
+                            <a href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP" target="_blank">Ver en Facebook</a>
+                        </p>
                     </div>
 
+                    <!-- YouTube -->
+                    <div class="col-md-4">
+                        <h6 class="mb-3">Nuestro Canal de YouTube</h6>
+                        <iframe 
+                            width="320" 
+                            height="180" 
+                            src="https://www.youtube.com/embed/videoseries?list=UU-9FckLePjWjezz1wlkziqQ" 
+                            title="Canal de YouTube - VRA UNAP" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                        <p class="mt-2">
+                            <a href="https://www.youtube.com/@VRAUNAP" target="_blank">Ver en YouTube</a>
+                        </p>
+                    </div>
+
+                    <!-- TikTok -->
+                    <div class="col-md-4">
+                        <h6 class="mb-3">Síguenos en TikTok</h6>
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@vicerrectorado_academico" data-video-id="" style="max-width: 320px; min-width: 320px;">
+                            <iframe 
+                                width="320" 
+                                height="180" 
+                                src="https://www.tiktok.com/embed/@vicerrectorado_academico" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope">
+                            </iframe>
+                        </blockquote>
+                        <p class="mt-2">
+                            <a href="https://www.tiktok.com/@vicerrectorado_academico" target="_blank">Ver en TikTok</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 access__direct wow fadeInDown">
-            <h5 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.8s">Accesos Directos</h5>
-            <div class="text-center mb-4">
-                <a href="" class="d-block mb-3"><img src="./public/img/icons/boleta.jpg" alt="Boleta" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
-                <a href="" class="d-block mb-3"><img src="./public/img/icons/asistencia.jpg" alt="Asistencia" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
-                <a href="" class="d-block mb-3"><img src="./public/img/icons/intranet.jpg" alt="Intranet" class="img-fluid wow fadeInDown" data-wow-delay="0.8s"></a>
-            </div>
 
-            <h5 class="text-center p-3 border-bottom-style mb-4 wow fadeInDown" data-wow-delay="0.8s">Redes Sociales</h5>
-            <div class="w-100 text-center">
-                <!-- Plugin de página de Facebook -->
-                <div class="fb-page"
-                    data-href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP"
-                    data-tabs="timeline"
-                    data-width="300"
-                    data-height="600"
-                    data-small-header="false"
-                    data-adapt-container-width="true"
-                    data-hide-cover="false"
-                    data-show-facepile="true">
-                    <blockquote cite="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP" class="fb-xfbml-parse-ignore">
-                        <a href="https://www.facebook.com/VicerrectoradoAcademicoVRAUNAP">Vicerrectorado Académico VRA UNAP</a>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
+            <!-- Facebook SDK -->
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v12.0" nonce="FbPageSDK"></script>
 
-        <!-- Script del SDK de Facebook -->
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"></script>
+            <!-- TikTok SDK -->
+            <script async src="https://www.tiktok.com/embed.js"></script>
 
         </div>
     </div>
 </div>
 
-<div class="container-fluid bg-primary py-5 wow fadeInDown">
+<!-- Script del SDK de Facebook -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"></script>
+
+
+<div class="container-fluid bg-primary py-5 animated zoomIn">
     <div class="container">
         <div class="row text-center text-white">
             <!-- Primera columna -->
@@ -276,30 +402,8 @@
 </div>
 
 
-
-<div class="container my-5 wow fadeInDown">
-    <h3 class="text-center mb-4">Nuestro Canal de YouTube</h3>
-    <div class="text-center">
-        <!-- Embed del canal de YouTube -->
-        <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed?listType=user_uploads&list=VRAUNAP" 
-            title="Canal de YouTube - VRA UNAP" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-        </iframe>
-        <p class="mt-3">
-            Visita nuestro canal para más contenido educativo y académico: 
-            <a href="https://www.youtube.com/@VRAUNAP" target="_blank">VRA UNAP</a>
-        </p>
-    </div>
-</div>
-
-
 <!-- Testimonial Start -->
-<div class="container-xxl py-5 wow fadeInDown" data-wow-delay="0.1s">
+<div class="container-xxl py-5 animated zoomIn" data-wow-delay="0.1s">
     <div class="container">
         <h3 class="text-center mb-5 p-3 border-bottom-style">Servicios en linea</h3>
         <div class="owl-carousel testimonial-carousel">
@@ -377,7 +481,7 @@
 
 .job-item:hover {
     transform: scale(1.03); /* Efecto de zoom al pasar el mouse */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.95); /* Sombra */
 }
 
 .job-item img {
@@ -393,7 +497,7 @@
         position: relative;
         width: 100%;
         height: 500px; /* Altura ajustada */
-        background-image: url('./public/img/fondo_boreal.jpg'); /* Reemplaza esto con la ruta correcta */
+        background-image: url('./public/img/gala2.jpg'); /* Reemplaza esto con la ruta correcta */
         background-size: cover; /* Asegura que la imagen cubra todo el área */
         background-position: center; /* Centra la imagen */
         background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -554,3 +658,44 @@
             retina_detect: true
         });
     </script>
+
+<style>
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .linea-dividida {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5px;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .segmento {
+            width: 50px;
+            height: 4px;
+            background-color: #007bff;
+            border-radius: 4px;
+        }
+
+        .punto-blanco {
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border: 2px solid #007bff;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            animation: mover-punto 3s infinite alternate ease-in-out;
+        }
+
+        @keyframes mover-punto {
+            0% { left: 0; }
+            100% { left: calc(100% - 10px); }
+        }
+    </style>

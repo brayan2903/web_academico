@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>VRA UNA-PUNO | Portal Web</title>
+    <title>VRA UNA-PUNO | Web Academica</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -73,7 +73,7 @@
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5 wow fadeInRight">
+            <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5 animated zoomIn">
                 <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
 
             </a>

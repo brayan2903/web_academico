@@ -4,30 +4,46 @@ function mostrar_comunicados_web(pagina_actual = 1, elementos_por_pagina = 5) {
         type: 'POST',
     }).done(function (resp) {
         let data = JSON.parse(resp);
-        var cadena = "";
+        let cadena = "";
 
         if (data.length > 0) {
             const inicio = (pagina_actual - 1) * elementos_por_pagina;
             const fin = inicio + elementos_por_pagina;
+
             for (let i = inicio; i < fin && i < data.length; i++) {
-                cadena += '  <div class="col-lg-12 bg-light container__com item_comunicado">' +
-                    '<div class="row p-3 align-items-center">' +
-                    '<div class="col-lg-9">' +
-                    '<h6 class="m-0 p-2 text-justify">' + data[i]["com_titulo"] + '</h6>' +
-                    '<p class="m-0 p-2 text-justify texto">' + data[i]["com_descripcion"] + '</p>' +
-                    '<ul class="d-flex list-unstyled m-0">' +
-                    '<li class="p-2"><i class="fa-solid fa-calendar-days me-2"></i>' + Calcular_Fecha(data[i]["com_feccreacion"]) + '</li>' +
-                    '<li class="p-2"><a href="documento?id=' + data[i]["comunicado_id"] + '" class=""><i class="fa-solid fa-eye me-2"></i>Ver Documento</a></li>' +
-                    '</ul>' +
-                    '</div>' +
-                    '<div class="col-lg-3">' +
-                    '<img src="admin/' + data[i]["com_imgprev"] + '" class="img-fluid img__com" alt="...">' +
-                    '</div>' +
-                    '</div>' +
-                    '</div>';
+                cadena += `
+                    <div class="col-lg-12">
+                        <div class="card comunicado-card shadow-lg border-0 mb-4">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <div class="img-container">
+                                        <img src="admin/${data[i]["com_imgprev"]}" class="img-fluid img-comunicado" alt="Imagen del comunicado">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-dark fw-bold">${data[i]["com_titulo"]}</h4>
+                                        <p class="card-text">${data[i]["com_descripcion"]}</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="text-muted">
+                                                <i class="fa-solid fa-calendar-days me-2"></i> ${Calcular_Fecha(data[i]["com_feccreacion"])}
+                                            </span>
+                                            <a href="documento?id=${data[i]["comunicado_id"]}" class="btn btn-primary btn-sm">
+                                                <i class="fa-solid fa-eye me-2"></i> Ver Documento
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
             }
+
             document.getElementById("contenet__comunicados").innerHTML = cadena;
             crear_botones_paginacion(Math.ceil(data.length / elementos_por_pagina), pagina_actual);
+        } else {
+            document.getElementById("contenet__comunicados").innerHTML = `<div class="alert alert-warning text-center">No hay comunicados disponibles.</div>`;
         }
     });
 }
