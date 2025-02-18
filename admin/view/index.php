@@ -254,18 +254,39 @@ if (!isset($_SESSION['S_ID'])) {
                                         <span class="nav-label mininav-content ms-1">Convocatorias</span>
                                     </a>
                                 </li>
+                                
                                 <li class="nav-item">
-                                    <a onclick="cargar_contenido('content','modules/documentos/documentosCas.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosResoluciones.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
 
-                                        <span class="nav-label mininav-content ms-1">documentos cas</span>
+                                        <span class="nav-label mininav-content ms-1">documentos Resoluciones</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a onclick="cargar_contenido('content','modules/documentos/documentosDirectivos.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosDirectivas.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
 
-                                        <span class="nav-label mininav-content ms-1">documentos direc</span>
+                                        <span class="nav-label mininav-content ms-1">documentos Directivas</span>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosReglamentos.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">documentos Reglamentos</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosNlegales.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">documentos Normas Legales</span>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a onclick="cargar_contenido('content','modules/documentos/documentosOtros.php')" class="nav-link mininav-toggle"><i class="bi bi-people fs-5 me-2"></i>
+
+                                        <span class="nav-label mininav-content ms-1">documentos Otros</span>
+                                    </a>
+                                </li>
+                                
                                 <li class="nav-item has-sub">
                                     <a href="#" class="mininav-toggle nav-link collapsed"><i class="demo-pli-split-vertical-2 fs-5 me-2"></i>
                                         <span class="nav-label ms-1">Convocatorias</span>

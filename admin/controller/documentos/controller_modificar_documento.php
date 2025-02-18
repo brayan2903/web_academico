@@ -4,6 +4,7 @@ $MU = new Modelo_Documento(); // Instanciamos el modelo de documentos
 
 // Obtenemos y sanitizamos los datos enviados desde el formulario
 $id = strtoupper(htmlspecialchars($_POST['id'], ENT_QUOTES, 'UTF-8'));
+$numdoc = strtoupper(htmlspecialchars($_POST['numdoc'], ENT_QUOTES, 'UTF-8'));
 $titulo = strtoupper(htmlspecialchars($_POST['titulo'], ENT_QUOTES, 'UTF-8'));
 $nombrearchivo1 = strtoupper(htmlspecialchars($_POST['nombrearchivo1'], ENT_QUOTES, 'UTF-8'));
 $nombrearchivo2 = strtoupper(htmlspecialchars($_POST['nombrearchivo2'], ENT_QUOTES, 'UTF-8'));
@@ -20,7 +21,7 @@ $ruta4 = !empty($nombrearchivo4) ? 'controller/documentos/docs/' . $nombrearchiv
 $ruta5 = !empty($nombrearchivo5) ? 'controller/documentos/docs/' . $nombrearchivo5 : '';
 
 // Llamamos al método del modelo para modificar el documento
-$consulta = $MU->Modificar_Documento($id, $titulo, $ruta1, $ruta2, $ruta3, $ruta4, $ruta5, $estado);
+$consulta = $MU->Modificar_Documento($id, $numdoc, $titulo, $ruta1, $ruta2, $ruta3, $ruta4, $ruta5, $estado);
 
 // Enviamos la respuesta al frontend
 echo $consulta;
