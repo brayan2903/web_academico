@@ -2,32 +2,29 @@
 
 <script>
     function iniciarEditor() {
-        if (typeof CKEDITOR !== 'undefined' && document.getElementById('txt_desc')) {
-            // Verifica si ya está inicializado y lo destruye antes de volver a inicializar
-            if (CKEDITOR.instances['txt_desc']) {
-                CKEDITOR.instances['txt_desc'].destroy(true);
-            }
+        setTimeout(() => {
+            if (typeof CKEDITOR !== 'undefined' && document.getElementById('txt_desc')) {
+                if (!CKEDITOR.instances['txt_desc']) {
+                    CKEDITOR.replace('txt_desc', {
+                        height: 300,
+                        toolbar: [
+                            { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
+                            { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat'] },
+                            { name: 'paragraph', items: ['NumberedList', 'BulletedList', 'Blockquote'] },
+                            { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar', 'Link', 'Unlink'] },
+                            { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
+                            { name: 'colors', items: ['TextColor', 'BGColor'] },
+                            { name: 'tools', items: ['Maximize', 'Source'] }
+                        ],
+                        extraPlugins: 'image2,uploadimage,colorbutton,font',
+                        removePlugins: 'elementspath',
+                        resize_enabled: true
+                    });
 
-            // Inicializa CKEditor
-            CKEDITOR.replace('txt_desc', {
-                height: 300,
-                toolbar: [
-                    { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
-                    { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat'] },
-                    { name: 'paragraph', items: ['NumberedList', 'BulletedList', 'Blockquote'] },
-                    { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar'] },
-                    { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
-                    { name: 'colors', items: ['TextColor', 'BGColor'] },
-                    { name: 'tools', items: ['Maximize', 'Source'] }
-                ],
-                extraPlugins: 'image2,uploadimage,colorbutton,font',
-                removePlugins: 'elementspath',
-                resize_enabled: true
-            });
-        } else {
-            console.warn("CKEditor no se ha cargado completamente, reintentando en 500ms...");
-            setTimeout(iniciarEditor, 500);  // Reintenta después de 500ms
-        }
+                    console.log("✅ CKEditor inicializado correctamente.");
+                }
+            }
+        }, 500);
     }
 
     // Esperar a que el DOM cargue y ejecutar la función
@@ -35,13 +32,31 @@
         iniciarEditor();
     });
 
-    CKEDITOR.on('instanceReady', function (ev) {
-    ev.editor.showNotification = function () { return false; };
-});
-setTimeout(() => {
-    document.querySelectorAll('.cke_notification').forEach(el => el.remove());
-}, 1000);
+    // Asegurar que CKEditor se carga en la modal cuando se abre
+    $('#modal_registro').on('shown.bs.modal', function () {
+        iniciarEditor();
+    });
 
+    $('#modal_editar').on('shown.bs.modal', function () {
+        iniciarEditor();
+    });
+
+    // PREVENIR QUE DESAPAREZCA DESPUÉS DE 3 SEGUNDOS
+    setInterval(() => {
+        if (document.getElementById('txt_desc') && !CKEDITOR.instances['txt_desc']) {
+            console.warn("⚠️ CKEditor desapareció, reiniciándolo...");
+            iniciarEditor();
+        }
+    }, 2000);
+
+    // Eliminar notificaciones de advertencia
+    CKEDITOR.on('instanceReady', function (ev) {
+        ev.editor.showNotification = function () { return false; };
+    });
+
+    setTimeout(() => {
+        document.querySelectorAll('.cke_notification').forEach(el => el.remove());
+    }, 1000);
 </script>
 
 
