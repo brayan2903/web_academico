@@ -1,3 +1,51 @@
+<script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+
+<script>
+    function iniciarEditor() {
+        if (typeof CKEDITOR !== 'undefined' && document.getElementById('txt_desc')) {
+            // Verifica si ya está inicializado y lo destruye antes de volver a inicializar
+            if (CKEDITOR.instances['txt_desc']) {
+                CKEDITOR.instances['txt_desc'].destroy(true);
+            }
+
+            // Inicializa CKEditor
+            CKEDITOR.replace('txt_desc', {
+                height: 300,
+                toolbar: [
+                    { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
+                    { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat'] },
+                    { name: 'paragraph', items: ['NumberedList', 'BulletedList', 'Blockquote'] },
+                    { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar'] },
+                    { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
+                    { name: 'colors', items: ['TextColor', 'BGColor'] },
+                    { name: 'tools', items: ['Maximize', 'Source'] }
+                ],
+                extraPlugins: 'image2,uploadimage,colorbutton,font',
+                removePlugins: 'elementspath',
+                resize_enabled: true
+            });
+        } else {
+            console.warn("CKEditor no se ha cargado completamente, reintentando en 500ms...");
+            setTimeout(iniciarEditor, 500);  // Reintenta después de 500ms
+        }
+    }
+
+    // Esperar a que el DOM cargue y ejecutar la función
+    document.addEventListener("DOMContentLoaded", function () {
+        iniciarEditor();
+    });
+
+    CKEDITOR.on('instanceReady', function (ev) {
+    ev.editor.showNotification = function () { return false; };
+});
+setTimeout(() => {
+    document.querySelectorAll('.cke_notification').forEach(el => el.remove());
+}, 1000);
+
+</script>
+
+
+
 <script src="../public/js/comunicados.js?rev=<?php echo time(); ?>"></script>
 
 <div class="content__boxed">
@@ -68,10 +116,40 @@
                         <label for="" class="fw-bolder">Titulo (*) :</label>
                         <input type="text" class="form-control" id="txt_titulo">
                     </div>
+
+
                     <div class="col-lg-12 mb-3">
-                        <label for="" class="fw-bolder">Descripción (*) :</label>
-                        <textarea id="txt_desc" rows="3" class="form-control" style="resize:none;"></textarea>
-                    </div>
+    <label for="txt_desc" class="fw-bolder">Descripción (*) :</label>
+    <textarea id="txt_desc" name="txt_desc" class="form-control"></textarea>
+</div>
+
+<script>
+  // Convierte el textarea en un editor WYSIWYG
+  CKEDITOR.replace('txt_desc', {
+      height: 200,
+      toolbar: [
+          { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
+          { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
+          { name: 'paragraph', items: ['NumberedList', 'BulletedList', 'Blockquote'] },
+          { name: 'insert', items: ['Image', 'Table', 'HorizontalRule'] },
+          { name: 'styles', items: ['Styles', 'Format'] },
+          { name: 'tools', items: ['Maximize', 'Source'] }
+      ],
+      removeDialogTabs: 'image:advanced;link:advanced'
+  });
+
+  
+</script>
+
+
+
+<style>
+    .cke_notification {
+    display: none !important;
+}
+
+</style>
+
                     <div class="col-lg-12 mb-3">
                         <div class="d-flex flex-column">
                             <label for="" class="fw-bolder">Subir Vista Previa PNG/JPG (*) :</label>
