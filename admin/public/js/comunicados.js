@@ -91,6 +91,34 @@ $('#tabla_comunicado').on('click', '.eliminar', function () {
     });
 });
 
+
+$('#modal_registro').on('shown.bs.modal', function () {
+    setTimeout(() => {
+        if (typeof CKEDITOR !== 'undefined') {
+            if (CKEDITOR.instances['txt_desc']) {
+                CKEDITOR.instances['txt_desc'].destroy(true);
+            }
+            CKEDITOR.replace('txt_desc', {
+                height: 300,
+                toolbar: [
+                    { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'Undo', 'Redo'] },
+                    { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat'] },
+                    { name: 'paragraph', items: ['NumberedList', 'BulletedList', 'Blockquote'] },
+                    { name: 'insert', items: ['Image', 'Table', 'HorizontalRule', 'SpecialChar'] },
+                    { name: 'styles', items: ['Styles', 'Format', 'Font', 'FontSize'] },
+                    { name: 'colors', items: ['TextColor', 'BGColor'] },
+                    { name: 'tools', items: ['Maximize', 'Source'] }
+                ],
+                extraPlugins: 'image2,uploadimage,colorbutton,font',
+                removePlugins: 'elementspath',
+                resize_enabled: true
+            });
+            console.log("CKEditor cargado correctamente en el modal.");
+        }
+    }, 300);
+});
+
+
 function AbrirRegistro() {
     $("#modal_registro").modal({ keyborad: false })
     $("#modal_registro").modal('show');
@@ -124,7 +152,10 @@ function Guardar_Requisitos(accion) {
 
 function Registrar_Comunicados() {
     let titulo = document.getElementById("txt_titulo").value;
-    let descripcion = document.getElementById("txt_desc").value;
+
+    let descripcion = CKEDITOR.instances['txt_desc'].getData();
+   
+    
     let img = document.getElementById("txt_img_prev").value;
     let documento = document.getElementById("txt_documento").value;
     let idarea = document.getElementById("txtprincipalareaid").value;
@@ -194,7 +225,9 @@ function Registrar_Comunicados() {
 function Modificar_Comunicado() {
     let idcom = document.getElementById("txt_id_edit").value;
     let titulo = document.getElementById("txt_titulo_edit").value;
-    let descripcion = document.getElementById("txt_desc_edit").value;
+    let descripcion = CKEDITOR.instances['txt_desc_edit'].getData();
+  
+
     let img = document.getElementById("txt_img_prev_edit").value;
     let documento = document.getElementById("txt_documento_edit").value;
     let estado = document.getElementById("select_estatus").value;
