@@ -121,7 +121,7 @@
                             <a href="noticias" class="dropdown-item">normativa</a>
                         </div>
                     </div>
-                    <a href="servicio" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
+                    <a href="documentos" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
                 </div>
             </div>
         </nav>
@@ -175,7 +175,9 @@
                 case "departamentos":
                     include "view/modules/pregrado/" . $_GET["url"] . ".php";
                     break;
-
+                case "documentos":
+                    include "view/modules/documentos/" . $_GET["url"] . ".php";
+                    break;
                     
                 case "nosotros":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
