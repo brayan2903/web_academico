@@ -20,6 +20,7 @@ function listar_documentos() {
         },
         "columns": [
             { "defaultContent": "" },
+            { "data": "num_doc", "className": "text-center" },
             { "data": "doc_titulo" },
             { "data": "fechapublicacion", "className": "text-center" },
             {
@@ -135,6 +136,7 @@ function AbrirRegistro() {
     $("#modal_registro").modal('show');
 }
 function Registrar_Documento() {
+    let numdoc = document.getElementById("txt_numdoc")?.value; // Nuevo campo
     let titulo = document.getElementById("txt_titulo")?.value;
     let doc1 = document.getElementById("txt_doc_archivo1")?.value;
     let doc2 = document.getElementById("txt_doc_archivo2")?.value;
@@ -146,6 +148,9 @@ function Registrar_Documento() {
     let tipo = document.getElementById("tipo_doc").value; // O el ID que uses
 
     // Validación básica
+    if (!numdoc || numdoc.trim().length === 0) {
+        return Swal.fire("Mensaje de Advertencia", "El número de documento es obligatorio", "warning");
+    }
     if (!titulo || titulo.trim().length === 0) {
         return Swal.fire("Mensaje de Advertencia", "El título del documento está vacío", "warning");
     }
@@ -185,6 +190,7 @@ function Registrar_Documento() {
     let archivoobj4 = $("#txt_doc_archivo4")[0].files[0];
     let archivoobj5 = $("#txt_doc_archivo5")[0].files[0];
 
+    formData.append("numdoc", numdoc);
     formData.append("titulo", titulo);
     formData.append("nombrearchivo1", nombrearchivo1);
     formData.append("nombrearchivo2", nombrearchivo2);
@@ -229,6 +235,7 @@ $.ajax({
                         "success"
                     );
                     // Limpiar campos del formulario
+                    document.getElementById('txt_numdoc').value = "";
                     document.getElementById('txt_titulo').value = "";
                     document.getElementById('txt_doc_archivo1').value = "";
                     document.getElementById('txt_doc_archivo2').value = "";
@@ -259,6 +266,7 @@ $.ajax({
 
 function Modificar_Documento() {
     let id = document.getElementById("txt_id_doc").value;
+    let numdoc = document.getElementById("txt_numdoc_edit").value;
     let titulo = document.getElementById("txt_titulo_edit").value;
     let doc1 = document.getElementById("txt_doc_archivo1_edit").value;
     let doc2 = document.getElementById("txt_doc_archivo2_edit").value;
@@ -302,6 +310,7 @@ function Modificar_Documento() {
     let archivoobj5 = $("#txt_doc_archivo5_edit")[0].files[0];
 
     formData.append("id", id);
+    formData.append("numdoc", numdoc);
     formData.append("titulo", titulo);
     formData.append("nombrearchivo1", nombrearchivo1);
     formData.append("nombrearchivo2", nombrearchivo2);
