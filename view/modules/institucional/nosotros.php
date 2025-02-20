@@ -19,10 +19,10 @@
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <h1 class="mb-4">Unidad de Gestión Educativa Local Yunguyo</h1>
+                <h1 class="mb-4">Unidad de Gestión Educativa Local</h1>
                 <p class="mb-4 text-justify">Mediante nuestro nuevo portal quiero darles la más cordial bienvenida, con
                     el fin de
-                    servirlos mucho mejor en bienestar de todos los estudiantes de la provincia de Yunguyo</p>
+                    servirlos mucho mejor en bienestar de todos los estudiantes de la provincia de </p>
                 <p><i class="fa fa-check text-primary me-3"></i>Responsabilidad</p>
                 <p><i class="fa fa-check text-primary me-3"></i>Honestidad</p>
                 <p><i class="fa fa-check text-primary me-3"></i>Puntualidad</p>
@@ -65,7 +65,7 @@
                                 style="width: 45px; height: 45px;">
                                 <i class="fa fa-map-marker-alt text-primary"></i>
                             </div>
-                            <span>Jr. Independencia N° 1034, Yunguyo</span>
+                            <span>Jr. Independencia N° 1034</span>
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
@@ -74,7 +74,7 @@
                                 style="width: 45px; height: 45px;">
                                 <i class="fa fa-envelope-open text-primary"></i>
                             </div>
-                            <span>infougelyunguyo@ugelyunguyo.com</span>
+                            <span>CORRE@.com</span>
                         </div>
                     </div>
                     <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">

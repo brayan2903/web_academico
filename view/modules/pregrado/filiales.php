@@ -28,11 +28,11 @@
             <!-- Filial 3 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card shadow border-0">
-                    <img src="./public/img/vra/1200x628.png" class="card-img-top" alt="Filial Yunguyo">
+                    <img src="./public/img/vra/1200x628.png" class="card-img-top" alt="Filial">
                     <div class="card-body text-center">
-                        <h5 class="card-title">Filial Yunguyo</h5>
+                        <h5 class="card-title">Filial </h5>
                         <p class="card-text">Facilita el acceso a educación superior en comunidades fronterizas.</p>
-                        <button class="btn btn-primary" onclick="mostrarDetalleFilial('yunguyo')">Más Información</button>
+                        <button class="btn btn-primary" onclick="mostrarDetalleFilial('VRA')">Más Información</button>
                     </div>
                 </div>
             </div>

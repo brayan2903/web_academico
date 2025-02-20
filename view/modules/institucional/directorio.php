@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row mb-5 " >
-            <h5 class="mb-4 text-center border-bottom-style p-3 animated slideInRight ">UGEL YUNGUYO</h5>
+            <h5 class="mb-4 text-center border-bottom-style p-3 animated slideInRight ">VRA</h5>
             <div id="box__directorio" class="col dir d-flex gap-4 flex-wrap justify-content-center wow fadeInUp" data-wow-delay="0.5s">
                 
             </div>

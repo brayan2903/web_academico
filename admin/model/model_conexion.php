@@ -5,7 +5,7 @@ class ConexionDB{
         $host   = "localhost";
         $usuario = "root";
         $password = "";
-        $dbname   = "web_ugel"; 
+        $dbname   = "web_academico"; 
         
         try{
             $pdo = new PDO("mysql:host=$host;dbname=$dbname",$usuario,$password);
