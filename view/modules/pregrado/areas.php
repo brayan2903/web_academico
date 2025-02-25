@@ -1,102 +1,115 @@
 <!-- Áreas de Estudio - Pregrado Start -->
-<div class="container-xxl py-5">
-    <div class="container">
-        <h1 class="text-center mb-5">Áreas de Estudio</h1>
-        <p class="text-center mb-4">
-            Descubre las diferentes áreas de estudio que ofrece el Pregrado de la Universidad Nacional del Altiplano, 
-donde la excelencia académica se combina con la innovación.
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <h2 class="fw-bold text-primary mb-3">Áreas de Estudio</h2>
+        <p class="text-muted mx-auto" style="max-width: 600px;">
+            Explora las áreas académicas que impulsan el conocimiento y la innovación en la Universidad Nacional del Altiplano.
         </p>
+    </div>
 
-        <div class="row g-4">
-            <!-- Área de Ciencias Sociales -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-users fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Ciencias Sociales</h5>
-                        <p class="card-text">
-                            Enfocada en el estudio de la sociedad, la cultura y las relaciones humanas.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('sociales')">Ver Más</button>
+    <div class="row g-3">
+        <!-- Área Biomédicas -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <span class="badge bg-primary-soft text-primary p-2 rounded-circle">
+                            <i class="fas fa-heartbeat fa-2x"></i>
+                        </span>
                     </div>
+                    <h5 class="card-title mb-3">Área Biomédicas</h5>
+                    <p class="text-muted mb-4">
+                        Investigación y preservación del medio ambiente para un futuro sostenible.
+                    </p>
+                    <a href="escuelasprofesionales" class="btn btn-sm btn-outline-primary stretched-link">Descubrir</a>
                 </div>
-            </div>
-
-            <!-- Área de Ingeniería -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-cogs fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Ingeniería</h5>
-                        <p class="card-text">
-                            Ofrecemos programas que fomentan la innovación y el desarrollo tecnológico.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('ingenieria')">Ver Más</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Área de Ciencias Naturales -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-leaf fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Ciencias Naturales</h5>
-                        <p class="card-text">
-                            Programas orientados a la investigación y preservación del medio ambiente.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('naturales')">Ver Más</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Área de Ciencias de la Salud -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-heartbeat fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Ciencias de la Salud</h5>
-                        <p class="card-text">
-                            Formación integral en el cuidado de la salud y el bienestar de la comunidad.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('salud')">Ver Más</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Área de Humanidades -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-book fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Humanidades</h5>
-                        <p class="card-text">
-                            Explora la historia, filosofía y el arte a través de un enfoque interdisciplinario.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('humanidades')">Ver Más</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Área de Ciencias Económicas -->
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                <div class="card shadow h-100">
-                    <div class="card-body text-center">
-                        <i class="fa fa-chart-line fa-3x text-primary mb-4"></i>
-                        <h5 class="card-title">Ciencias Económicas</h5>
-                        <p class="card-text">
-                            Ofrecemos programas especializados en economía, negocios y gestión empresarial.
-                        </p>
-                        <button class="btn btn-outline-primary" onclick="mostrarDetalles('economicas')">Ver Más</button>
-                    </div>
-                </div>
+                <div class="card-overlay"></div>
             </div>
         </div>
 
-        <!-- Detalles Dinámicos -->
-        <div id="detalles" class="mt-5"></div>
+        <!-- Área de Ingenierías -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <span class="badge bg-primary-soft text-primary p-2 rounded-circle">
+                            <i class="fas fa-microchip fa-2x"></i>
+                        </span>
+                    </div>
+                    <h5 class="card-title mb-3">Área Ingenierías</h5>
+                    <p class="text-muted mb-4">
+                        Innovación tecnológica que transforma ideas en soluciones reales.
+                    </p>
+                    <a href="escuelasprofesionales" class="btn btn-sm btn-outline-primary stretched-link">Descubrir</a>
+                </div>
+                <div class="card-overlay"></div>
+            </div>
+        </div>
+
+        <!-- Área Sociales -->
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 position-relative overflow-hidden">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3">
+                        <span class="badge bg-primary-soft text-primary p-2 rounded-circle">
+                            <i class="fas fa-balance-scale fa-2x"></i>
+                        </span>
+                    </div>
+                    <h5 class="card-title mb-3">Área Sociales</h5>
+                    <p class="text-muted mb-4">
+                        Comprendiendo la sociedad, cultura y dinámicas humanas.
+                    </p>
+                    <a href="escuelasprofesionales" class="btn btn-sm btn-outline-primary stretched-link">Descubrir</a>
+                </div>
+                <div class="card-overlay"></div>
+            </div>
+        </div>
     </div>
+
+    <!-- Detalles Dinámicos -->
+    <div id="detalles" class="mt-4"></div>
 </div>
+
+<style>
+    .bg-primary-soft {
+        background-color: rgba(13, 110, 253, 0.1);
+    }
+
+    .card {
+        transition: all 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important;
+    }
+
+    .card-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background-color: var(--bs-primary);
+        transition: height 0.3s ease;
+    }
+
+    .card:hover .card-overlay {
+        height: 8px;
+    }
+
+    .stretched-link::after {
+        transition: opacity 0.3s ease;
+    }
+
+    .badge {
+        width: 70px;
+        height: 70px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
 
 <script>
     function mostrarDetalles(area) {
@@ -104,16 +117,13 @@ donde la excelencia académica se combina con la innovación.
             sociales: "Los programas en Ciencias Sociales incluyen disciplinas como Sociología, Psicología y Antropología, promoviendo un entendimiento profundo de las dinámicas sociales.",
             ingenieria: "En el área de Ingeniería, ofrecemos especializaciones en Ingeniería Civil, Eléctrica, Mecánica, y Sistemas, entre otras.",
             naturales: "Las Ciencias Naturales abarcan Biología, Ecología y Geología, con énfasis en investigación y sostenibilidad.",
-            salud: "Nuestros programas en Ciencias de la Salud incluyen Medicina, Enfermería y Nutrición, preparando profesionales para el cuidado integral de la comunidad.",
-            humanidades: "Las Humanidades exploran campos como Historia, Filosofía y Arte, fomentando un enfoque crítico y creativo.",
-            economicas: "Los programas en Ciencias Económicas ofrecen formación en Economía, Administración de Empresas y Contabilidad."
         };
 
         const contenedor = document.getElementById('detalles');
         contenedor.innerHTML = `
-            <div class="alert alert-primary mt-4">
-                <h5>Detalles del Área</h5>
-                <p>${detalles[area]}</p>
+            <div class="alert alert-soft-primary text-primary border-0 shadow-sm">
+                <h5 class="alert-heading">Detalles del Área</h5>
+                <p class="mb-0">${detalles[area]}</p>
             </div>
         `;
     }

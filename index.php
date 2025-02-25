@@ -90,7 +90,7 @@
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="vra" class="dropdown-item">Acerca del VRA</a>
                             <a href="NuestroVicerrector" class="dropdown-item">Nuestro vicerrector</a>
-                            <a href="misionyvision" class="dropdown-item">misión y visión</a>
+                            <a href="misionyvision" class="dropdown-item">Misión y Visión</a>
                             <a href="organigramvra" class="dropdown-item">Organigrama</a>
                         </div>
                     </div>
@@ -107,18 +107,18 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Pregrado</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="areas" class="dropdown-item">areas de estudio</a>
+                            <a href="areas" class="dropdown-item">Areas de estudio</a>
                             <a href="escuelasprofesionales" class="dropdown-item">Escuelas Profesionales</a>
                             <a href="filiales" class="dropdown-item">Filiales</a>
                             <a href="departamentos" class="dropdown-item">Departamentos Academicos</a>
-                            <a href="convocatoriasCap" class="dropdown-item">Directorio</a>
+                            <!-- <a href="convocatoriasCap" class="dropdown-item">Directorio</a> -->
                         </div>
                     </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">institucionales</a>
                         <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="eventos" class="dropdown-item">estatuto</a>
-                            <a href="noticias" class="dropdown-item">normativa</a>
+                            <a href="eventos" class="dropdown-item">Estatuto</a>
+                            <a href="noticias" class="dropdown-item">Normativa</a>
                         </div>
                     </div>
                     <a href="documentos" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
@@ -170,6 +170,9 @@
                     include "view/modules/pregrado/" . $_GET["url"] . ".php";
                     break;
                 case "filiales":
+                    include "view/modules/pregrado/" . $_GET["url"] . ".php";
+                    break;
+                case "escuelasfiliales":
                     include "view/modules/pregrado/" . $_GET["url"] . ".php";
                     break;
                 case "departamentos":
