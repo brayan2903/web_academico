@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <script src="public/js/web_inicio.js?rev=<?php echo time(); ?>"></script>
 <script src="public/js/web_slider.js?rev=<?php echo time(); ?>"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <!-- Carousel Start -->
 <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner" id="items_slider">
@@ -32,7 +33,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.1s">
                     <a class="category-item" href="eventos">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Carga Académica" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Carga Académica" class="category-logo">
                         </div>
                         <p class="category-text text-white">CARGA ACADÉMICA<br>SISCAD</p>
                     </a>
@@ -41,7 +42,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.3s">
                     <a class="category-item" href="noticias">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Nivelación Ingresantes" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3976/3976625.png" alt="Nivelación Ingresantes" class="category-logo">
                         </div>
                         <p class="category-text text-white">NIVELACIÓN<br>INGRESANTES</p>
                     </a>
@@ -50,7 +51,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.5s">
                     <a class="category-item" href="convocatorias">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Cursos y Certificados" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2997/2997243.png" alt="Cursos y Certificados" class="category-logo">
                         </div>
                         <p class="category-text text-white">CURSOS Y<br>CERTIFICADOS</p>
                     </a>
@@ -59,7 +60,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.7s">
                     <a class="category-item" href="#">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Capacitaciones" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/2247/2247728.png" alt="Capacitaciones" class="category-logo">
                         </div>
                         <p class="category-text text-white">CAPACITACIONES</p>
                     </a>
@@ -68,7 +69,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.9s">
                     <a class="category-item" href="#">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Diplomados VRA" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4207/4207253.png" alt="Diplomados VRA" class="category-logo">
                         </div>
                         <p class="category-text text-white">DIPLOMADOS<br>VRA</p>
                     </a>
@@ -77,7 +78,7 @@
                 <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="1.1s">
                     <a class="category-item" href="reclamos">
                         <div class="category-box">
-                            <img src="https://cargaacademica.vra.unap.edu.pe/dist/img/2.png" alt="Asistencia Docentes" class="category-logo">
+                            <img src="https://cdn-icons-png.flaticon.com/512/6195/6195702.png" alt="Asistencia Docentes" class="category-logo">
                         </div>
                         <p class="category-text text-white">ASISTENCIA<br>DOCENTES</p>
                     </a>
@@ -364,43 +365,74 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v16.0"></script>
 
 
-<div class="container-fluid bg-primary py-5 animated zoomIn">
+<div class="container-fluid bg-primary py-5">
     <div class="container">
         <div class="row text-center text-white">
-            <!-- Primera columna -->
+            <!-- Facultades -->
             <div class="col-md-2 col-6 mb-4">
-                <i class="fa-solid fa-school fa-3x mb-3 text-white"></i>
-                <h4 class="mb-1 text-white">11</h4>
-                <p class="mb-0">Facultades</p>
+                <div class="metric-item">
+                    <i class="fa-solid fa-school fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">11</h4>
+                    <p class="mb-0">Facultades</p>
+                </div>
             </div>
-            <!-- Segunda columna -->
+            
+            <!-- Carreras Profesionales -->
             <div class="col-md-2 col-6 mb-4">
-                <i class="fa-solid fa-graduation-cap fa-3x mb-3 text-white"></i>
-                <h4 class="mb-1 text-white">30</h4>
-                <p class="mb-0">Carreras Profesionales</p>
+                <div class="metric-item">
+                    <i class="fa-solid fa-graduation-cap fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">30</h4>
+                    <p class="mb-0">Carreras Profesionales</p>
+                </div>
             </div>
-            <!-- Tercera columna -->
+            
+            <!-- Grupos de Investigación -->
             <div class="col-md-2 col-6 mb-4">
-                <i class="fa-solid fa-user-tie fa-3x mb-3 text-white"></i>
-                <h4 class="mb-1 text-white">104</h4>
-                <p class="mb-0">Investigadores RENACYT</p>
+                <div class="metric-item">
+                    <i class="fa-solid fa-users-cog fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">42</h4>
+                    <p class="mb-0">Grupos de Investigación</p>
+                </div>
             </div>
-            <!-- Cuarta columna -->
+            
+            <!-- Laboratorios -->
             <div class="col-md-2 col-6 mb-4">
-                <i class="fa-solid fa-file-alt fa-3x mb-3 text-white"></i>
-                <h4 class="mb-1 text-white">1661</h4>
-                <p class="mb-0">Artículos SCOPUS</p>
+                <div class="metric-item">
+                    <i class="fa-solid fa-microscope fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">28</h4>
+                    <p class="mb-0">Laboratorios</p>
+                </div>
             </div>
-            <!-- Quinta columna -->
+            
+            <!-- Herramientas de Investigación -->
             <div class="col-md-2 col-6 mb-4">
-                <i class="fa-solid fa-scroll fa-3x mb-3 text-white"></i>
-                <h4 class="mb-1 text-white">202</h4>
-                <p class="mb-0">Patentes Registradas</p>
+                <div class="metric-item">
+                    <i class="fa-solid fa-tools fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">120+</h4>
+                    <p class="mb-0">Herramientas de Investigación</p>
+                </div>
+            </div>
+            
+            <!-- Investigadores -->
+            <div class="col-md-2 col-6 mb-4">
+                <div class="metric-item">
+                    <i class="fa-solid fa-user-tie fa-3x mb-3 text-white"></i>
+                    <h4 class="mb-1 text-white">104</h4>
+                    <p class="mb-0">Investigadores RENACYT</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Información Adicional -->
+        <div class="row text-center text-white mt-4">
+            <div class="col-12">
+                <p class="lead">
+                    Impulsando la investigación, la innovación y el desarrollo científico
+                </p>
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- Testimonial Start -->
 <div class="container-xxl py-5 animated zoomIn" data-wow-delay="0.1s">

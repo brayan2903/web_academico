@@ -1,44 +1,53 @@
 <!-- Filiales Start -->
-<div class="container-xxl py-5 bg-light">
-    <div class="container">
-        <h1 class="text-center mb-5">Filiales de la Universidad Nacional del Altiplano</h1>
-        <div class="row justify-content-center">
-            <!-- Filial 1 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="./public/img/vra/1200x628.png" class="card-img-top" alt="Filial Azángaro">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Filial Azángaro</h5>
-                        <p class="card-text">Ofrece programas educativos diseñados para responder a las necesidades de la región.</p>
-                        <button class="btn btn-primary" onclick="mostrarDetalleFilial('azangaro')">Más Información</button>
+<div class="container py-4">
+    <div class="text-center mb-4">
+        <h2 class="h4 text-primary fw-bold mb-2">Filiales de la Universidad Nacional del Altiplano</h2>
+        <p class="text-muted small mx-auto" style="max-width: 600px;">
+            Extendiendo oportunidades educativas y contribuyendo al desarrollo regional.
+        </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+        <!-- Filial Azángaro -->
+        <div class="col-lg-5 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                        <img src="./public/img/vra/filialAz.png" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Filial Azángaro">
                     </div>
-                </div>
-            </div>
-            <!-- Filial 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="./public/img/vra/1200x628.png" class="card-img-top" alt="Filial Juli">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Filial Juli</h5>
-                        <p class="card-text">Contribuye al desarrollo académico y profesional en la región del Collao.</p>
-                        <button class="btn btn-primary" onclick="mostrarDetalleFilial('juli')">Más Información</button>
-                    </div>
-                </div>
-            </div>
-            <!-- Filial 3 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card shadow border-0">
-                    <img src="./public/img/vra/1200x628.png" class="card-img-top" alt="Filial">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Filial </h5>
-                        <p class="card-text">Facilita el acceso a educación superior en comunidades fronterizas.</p>
-                        <button class="btn btn-primary" onclick="mostrarDetalleFilial('VRA')">Más Información</button>
-                    </div>
+                    <h4 class="card-title text-primary mb-3">Filial Azángaro</h4>
+                    <p class="text-muted small mb-4">
+                        Ofrece programas educativos diseñados para responder a las necesidades de la región.
+                    </p>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="window.location.href='escuelasfiliales'">
+                        Más Información
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
                 </div>
             </div>
         </div>
-        <div id="detalle-filial" class="mt-5"></div>
+
+        <!-- Filial Juli -->
+        <div class="col-lg-5 col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+                <div class="card-body text-center p-4">
+                    <div class="mb-3 d-flex align-items-center justify-content-center" style="height: 200px;">
+                        <img src="./public/img/vra/filialJu.png" class="img-fluid" style="max-height: 100%; object-fit: contain;" alt="Filial Juli">
+                    </div>
+                    <h4 class="card-title text-primary mb-3">Filial Juli</h4>
+                    <p class="text-muted small mb-4">
+                        Contribuye al desarrollo académico y profesional en la región del Collao.
+                    </p>
+                    <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="window.location.href='escuelasfiliales'">
+                        Más Información
+                        <i class="fas fa-arrow-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div id="detalle-filial" class="mt-4"></div>
 </div>
 
 <script>
@@ -51,37 +60,25 @@
 
         const contenedor = document.getElementById('detalle-filial');
         contenedor.innerHTML = `
-            <div class='alert alert-info text-center'>
-                <h4>Información de la Filial</h4>
-                <p>${detalles[filial]}</p>
-            </div>
-        `;
+            <div class="alert bg-primary-soft text-primary border-0 rounded-3 small text-center">
+                <h5 class="alert-heading">Información de la Filial</h5>
+                <p class="mb-0">${detalles[filial]}</p>
+            </div>`;
     }
 </script>
 
 <style>
+    .bg-primary-soft {
+        background-color: rgba(13, 110, 253, 0.1);
+    }
+
     .card {
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .card:hover {
-        transform: scale(1.05);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .card-img-top {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    .btn-primary {
-        background-color: #0056b3;
-        border-color: #0056b3;
-    }
-
-    .btn-primary:hover {
-        background-color: #003d80;
-        border-color: #003d80;
+        transform: translateY(-5px);
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.125) !important;
     }
 </style>
 <!-- Filiales End -->
