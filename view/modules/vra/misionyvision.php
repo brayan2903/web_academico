@@ -46,15 +46,15 @@
         <!-- Supporting Imagery -->
         <div class="row text-center mt-5">
             <div class="col-lg-4">
-                <img src="./public/img/vra/1200x1200.png" alt="Misi&oacute;n" class="img-fluid rounded shadow">
+                <img src="./public/img/vra/Rector-de-la-UNA-Puno.jpg" alt="Misi&oacute;n" class="img-fluid rounded shadow">
                 <p class="mt-3 text-muted">Compromiso con la formaci&oacute;n integral</p>
             </div>
             <div class="col-lg-4">
-                <img src="./public/img/vra/1200x1200.png" alt="Visi&oacute;n" class="img-fluid rounded shadow">
+                <img src="./public/img/vra/innovacion02.jpg" alt="Visi&oacute;n" class="img-fluid rounded shadow">
                 <p class="mt-3 text-muted">Innovaci&oacute;n para un futuro sostenible</p>
             </div>
             <div class="col-lg-4">
-                <img src="./public/img/vra/1200x1200.png" alt="Valores" class="img-fluid rounded shadow">
+                <img src="./public/img/vra/panoramico.jpg" alt="Valores" class="img-fluid rounded shadow">
                 <p class="mt-3 text-muted">Valores &eacute;ticos y compromiso social</p>
             </div>
         </div>

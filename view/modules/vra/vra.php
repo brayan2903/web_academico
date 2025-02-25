@@ -16,7 +16,7 @@
                 <a href="directorio" class="btn btn-primary py-3 px-5 mt-3">Conoce al Equipo</a>
             </div>
             <div class="col-lg-6 text-center">
-                <img src="./public/img/vra/1000x1300.png" class="img-fluid rounded shadow-sm" alt="Equipo VRA">
+                <img src="./public/img/vra/Pabellon VRA.jpg" class="img-fluid rounded shadow-sm" alt="Equipo VRA">
             </div>
         </div>
 
@@ -50,21 +50,21 @@
         <div class="row g-4">
             <div class="col-md-4">
                 <div class="text-center">
-                    <img src="./public/img/vra/400x400.png" class="img-fluid mb-3 rounded shadow-sm" alt="Innovación Académica">
+                    <img src="./public/img/vra/Innovacion.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="Innovación Académica">
                     <h5>Innovación Académica</h5>
                     <p>Implementación de plataformas educativas digitales que facilitan el aprendizaje remoto y presencial.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="text-center">
-                    <img src="./public/img/vra/1200x1200.png" class="img-fluid mb-3 rounded shadow-sm" alt="Investigación">
+                    <img src="./public/img/vra/Investigacion.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="Investigación">
                     <h5>Fomento de la Investigación</h5>
                     <p>Más de 250 proyectos de investigación con impacto en la sociedad y reconocidos a nivel internacional.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="text-center">
-                    <img src="./public/img/vra/851x315.png" class="img-fluid mb-3 rounded shadow-sm" alt="Inclusión Educativa">
+                    <img src="./public/img/vra/Inclusion Educativa.jpg" class="img-fluid mb-3 rounded shadow-sm" alt="Inclusión Educativa">
                     <h5>Inclusión Educativa</h5>
                     <p>Programas de acceso a estudiantes de comunidades rurales, fortaleciendo la equidad educativa.</p>
                 </div>
@@ -79,7 +79,7 @@
         <h1 class="text-center mb-5">Compromisos Futuros</h1>
         <div class="row g-5 align-items-center">
             <div class="col-lg-6">
-                <img src="./public/img/vra/1200x628.png" class="img-fluid rounded shadow-sm" alt="Compromisos Futuros">
+                <img src="./public/img/vra/compromiso.jpg" class="img-fluid rounded shadow-sm" alt="Compromisos Futuros">
             </div>
             <div class="col-lg-6">
                 <ul class="list-unstyled">
@@ -100,7 +100,7 @@
         <h1 class="text-center mb-5">Historia del VRA</h1>
         <div class="row g-5">
             <div class="col-lg-6">
-                <img src="./public/img/vra/1000x1300.png" class="img-fluid rounded shadow-sm" alt="Historia VRA">
+                <img src="./public/img/vra/Universidad-Nacional-del-Altiplano.jpg" class="img-fluid rounded shadow-sm" alt="Historia VRA">
             </div>
             <div class="col-lg-6">
                 <p class="text-justify">

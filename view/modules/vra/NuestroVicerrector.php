@@ -5,7 +5,7 @@
             <!-- Imagen del Vicerrector -->
             <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                 <div class="text-center">
-                    <img src="./public/img/vra/1000x1300.png" alt="Dr. Mario Serafín Cuentas Alvarado" style="max-width: 300px;">
+                    <img src="./public/img/vra/Mario.png" alt="Dr. Mario Serafín Cuentas Alvarado" style="max-width: 300px;">
                 </div>
             </div>
 
