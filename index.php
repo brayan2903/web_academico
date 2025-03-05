@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
+<head >
     <meta charset="utf-8">
     <title>Panel | Portal Web</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -35,9 +35,41 @@
     <!-- Template Stylesheet -->
     <link href="./template/css/app.css" rel="stylesheet">
     
-
     <link rel="stylesheet" type="text/css" href="./public/DataTables/datatables.min.css" />
 
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'es',
+                includedLanguages: 'es,en,fr,de,qu,ay', // Idiomas que quieres incluir
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'google_translate_element');
+            }
+        </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <style>
+        .goog-te-gadget {
+        font-family: inherit !important;
+        font-size: 0.875rem !important;
+        }
+        .goog-te-gadget-simple {
+        border-radius: 4px !important;
+        border: 1px solid #ced4da !important;
+        padding: 0.25rem 0.5rem !important;
+        background-color: white !important;
+        }
+        .goog-te-gadget img {
+        display: none !important;
+        }
+        .goog-te-menu-value span:first-child {
+        font-size: 0.875rem !important;
+        }
+        .goog-te-banner-frame {
+        display: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -52,33 +84,49 @@
         <!-- Spinner End -->
 
         <!-- Header Start -->
-        <!-- <header class="header__box d-flex justify-content-center px-2 justify-content-lg-between">
-            <ul class="info__box d-lg-flex d-none">
-                <li class="item__info"><i class="fa-solid fa-phone me-2"></i>+51-987654321</li>
-                <li class="item__info"><i class="fa-solid fa-envelope me-2"></i>vra@una.com</li>
-            </ul>
+        <header class="header__box d-flex justify-content-center px-2 justify-content-lg-between">
+            <ul class="infobox d-lg-flex d-none">
+        <li class="iteminfo"><i class="fa-solid fa-phone me-2"></i>+51-987654321</li>
+        <li class="iteminfo"><i class="fa-solid fa-envelope me-2"></i>vra@una.com</li>
+    </ul>
 
-            <ul class="social-box ">
-                <li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                <li class="social-item"><a href="#" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
-                <li class="social-item"><a href="admin"><i class="fas fa-user-cog"></a></i>
+    <ul class="social-box">
+        <!-- Admisión -->
+        <li class="social-item"><a href="https://admision.unap.edu.pe/index" target="_blank" title="Admisión"><i class="fas fa-user-graduate"></i></a></li>
+        
+        <!-- Trámites -->
+        <li class="social-item"><a href="https://tramites.unap.edu.pe/" target="_blank" title="Trámites"><i class="fas fa-file-alt"></i></a></li>
+        
+        <!-- Biblioteca -->
+        <li class="social-item"><a href="https://biblioteca.unap.edu.pe/opac_css/" target="_blank" title="Biblioteca"><i class="fas fa-book"></i></a></li>
+        
+        <!-- Repositorio -->
+        <li class="social-item"><a href="https://repositorio.unap.edu.pe/" target="_blank" title="Repositorio"><i class="fas fa-database"></i></a></li>
+        
+        <!-- Investigación -->
+        <li class="social-item"><a href="https://vriunap.pe/pilar" target="_blank" title="Portal de Investigación"><i class="fas fa-microscope"></i></a></li>
+        
+        <!-- Aula Virtual -->
+        <li class="social-item"><a href="https://aulavirtual2.unap.edu.pe/login?ReturnUrl=%2F" target="_blank" title="Aula Virtual"><i class="fas fa-chalkboard-teacher"></i></a></li>
+        
+        <!-- Intranet -->
+        <li class="social-item"><a href="https://surl.lu/ckeqrx" target="_blank" title="Intranet"><i class="fas fa-network-wired"></i></a></li>
+        
+        <!-- Admin -->
+        <li class="social-item"><a href="admin" title="Administración"><i class="fas fa-user-cog"></i></a></li>
+    </ul>
 
-            </ul>
-
-        </header> -->
+        </header>
         <!-- Header End -->
 
 
 
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5 wow fadeInRight">
-                <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
-
+            <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-1 px-lg-2 wow fadeInRight">
+                <img src="./public/img/logo.png" width="190" alt="" class="img-fluid ">
             </a>
+
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -123,7 +171,88 @@
                     </div>
                     <a href="documentos" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
                 </div>
+
             </div>
+            <!-- HTML Reorganizado -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-lg-0">
+                    <div class="right-aligned-container">
+                        <!-- Logos en la parte superior -->
+                        <div class="logos-container">
+                            <a href="https://transparencia.unap.edu.pe/web/" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
+                                <img src="public/img/vra/logo-transparencia.png" class="img-fluid" alt="Logo Transparencia" width="120">
+                            </a>
+                            <a href="https://surl.li/kwjyfq" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
+                                <img src="public/img/vra/logo-portal-transparencia.png" class="img-fluid" alt="Logo Portal Transparencia" width="120">
+                            </a>
+                        </div>
+                        <!-- Selector de idiomas debajo -->
+                        <div class="language-container">
+                            <div id="google_translate_element" class="language-selector"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CSS para alinear correctamente -->
+            <style>
+                .right-aligned-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    width: 100%;
+                    padding-right: 15px;
+                }
+                
+                .logos-container {
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-bottom: 5px;
+                }
+                
+                .language-container {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 5px;
+                }
+                
+                .language-selector {
+                    margin-left: auto;
+                }
+                
+                /* Ajustes específicos para los logos */
+                .logos-container .navbar-brand {
+                    margin-right: 10px;
+                }
+                
+                .logos-container .navbar-brand:last-child {
+                    margin-right: 0;
+                }
+                
+                /* Ajustes adicionales para el widget de Google Translate */
+                .goog-te-gadget {
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                }
+                
+                /* Ajuste para dispositivos móviles */
+                @media (max-width: 768px) {
+                    .right-aligned-container {
+                        align-items: center;
+                        padding-right: 0;
+                    }
+                    
+                    .logos-container {
+                        justify-content: center;
+                    }
+                    
+                    .language-container {
+                        justify-content: center;
+                    }
+                }
+
+            </style>
         </nav>
         <!-- Navbar End -->
 
@@ -256,31 +385,45 @@
 
         ?>
 <!-- Footer Start -->
-<div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
+<div class="container-fluid bg-dark text-white-5 footer pt-1 mt-1 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-2">
+
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Institucional</h5>
                 <a class="btn btn-link text-white-50" href="nosotros">Sobre Nosotros</a>
                 <a class="btn btn-link text-white-50" href="directorio">Directorio Institucional</a>
                 <a class="btn btn-link text-white-50" href="documentosdegestion">Documentos de Gestion</a>
+                <!-- 
+
+                <h5 class="text-white mb-1">Ver Ubicacion en Google Maps</h5> 
+                <div class="col-lg-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <a href="https://surl.li/cepqnp" id="maps"><img src="https://cdn-icons-png.flaticon.com/512/5323/5323926.png" width="100"></a>
+                </div>-->
             </div>
+            
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Enlaces Rapidos</h5>
                 <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>
                 <a class="btn btn-link text-white-50" href="eventos">Eventos</a>
                 <a class="btn btn-link text-white-50" href="noticias">Noticias</a>
+                <a class="btn btn-link text-white-50" href="https://biblioteca.unap.edu.pe/opac_css/">Biblioteca</a>
+                <a class="btn btn-link text-white-50" href="https://vriunap.pe/pilar">Plataforma de Investigación</a>
+                <a class="btn btn-link text-white-50" href="https://repositorio.unap.edu.pe/">Repositorio Institucional</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Contactenos</h5>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jr. Independencia N° 1034</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+51987654321</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>CORREO@VO.com</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Floral Nº 1153 - Puno (Ciudad Universitaria)</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> (123) 456-78</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>vracademico@unap.edu.pe</p>
                 
             </div>
+            
             <div class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center"> 
-                <a href="reclamos" id="libro"><img src="./public/img/icons/libro.png" class="libro__re" alt="" width="160"></a>
+            <h5 class="text-white mb-1">Ver Ubicacion en Google Maps</h5>
+            <a href="https://surl.li/cepqnp" id="maps"><img src="https://cdn-icons-png.flaticon.com/512/5323/5323926.png" width="100"></a>
             </div>
+            
         </div>
     </div>
     <div class="container">
@@ -326,6 +469,7 @@
             }
         }
 </script>
+
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -334,6 +478,7 @@
 <script src="./template/lib/waypoints/waypoints.min.js"></script>
 <script src="./template/lib/owlcarousel/owl.carousel.min.js"></script>
 
+<!-- Template Javascript -->
 <!-- Template Javascript -->
 <script src="./template/js/main.js"></script>
 
@@ -347,7 +492,78 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <script src="./public/js/app.js"></script>
+<script src="./public/js/chatbot.js" defer></script>
 
+<script>
+// Función mejorada para ocultar la barra superior de Google Translate
+function hideGoogleTranslateBar() {
+  // Oculta el iframe de Google Translate de múltiples formas
+  var iframes = document.getElementsByTagName('iframe');
+  for (var i = 0; i < iframes.length; i++) {
+    if (iframes[i].className.indexOf('goog-te-banner-frame') > -1) {
+      iframes[i].style.display = 'none';
+    }
+  }
+
+  // Buscar por ID también
+  var elements = document.querySelectorAll('iframe[id^=":"][id$=".container"]');
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].style.display = 'none';
+  }
+  
+  // Restaurar el body a su posición original
+  document.body.style.top = '0px';
+  document.body.style.position = 'static';
+  
+  // Eliminar clases que Google añade
+  if (document.body.classList.contains('translated-rtl') || 
+      document.body.classList.contains('translated-ltr')) {
+    document.body.classList.remove('translated-rtl', 'translated-ltr');
+  }
+  
+  // Ocultar con CSS también
+  var style = document.createElement('style');
+  style.innerHTML = `
+    .goog-te-banner-frame, .goog-te-balloon-frame {display: none !important;} 
+    body {top: 0px !important; position: static !important;}
+  `;
+  document.head.appendChild(style);
+}
+
+// Ejecutar varias veces después de cargar la página para asegurarnos
+window.addEventListener('load', function() {
+  // Inmediatamente
+  hideGoogleTranslateBar();
+  
+  // Y luego cada 500ms durante 5 segundos
+  for (let i = 1; i <= 10; i++) {
+    setTimeout(hideGoogleTranslateBar, i * 500);
+  }
+});
+
+// También ejecutar cuando cambia el idioma
+document.addEventListener('click', function(e) {
+  // Ejecutar hideGoogleTranslateBar si se hace clic en cualquier elemento del selector de Google
+  if (e.target.closest('#google_translate_element')) {
+    setTimeout(function() {
+      for (let i = 1; i <= 10; i++) {
+        setTimeout(hideGoogleTranslateBar, i * 500);
+      }
+    }, 1000);
+  }
+});
+
+// Vigilar cambios en el DOM que puedan introducir el banner
+const observer = new MutationObserver(function(mutations) {
+  hideGoogleTranslateBar();
+});
+
+// Configurar el observer para vigilar cambios en el body
+observer.observe(document.body, { 
+  childList: true, 
+  subtree: true 
+});
+</script>
 </body>
 
 </html>

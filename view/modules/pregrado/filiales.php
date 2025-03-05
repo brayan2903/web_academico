@@ -17,7 +17,7 @@
                     </div>
                     <h4 class="card-title text-primary mb-3">Filial Azángaro</h4>
                     <p class="text-muted small mb-4">
-                        Ofrece programas educativos diseñados para responder a las necesidades de la región.
+                    La Filial Azángaro de la UNA Puno ofrece carreras profesionales con moderna infraestructura, formando profesionales comprometidos con el desarrollo de la región norte del departamento.
                     </p>
                     <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="window.location.href='escuelasfiliales'">
                         Más Información
@@ -36,7 +36,7 @@
                     </div>
                     <h4 class="card-title text-primary mb-3">Filial Juli</h4>
                     <p class="text-muted small mb-4">
-                        Contribuye al desarrollo académico y profesional en la región del Collao.
+                    La Filial Juli de la UNA Puno ofrece formación superior en las carreras que ofrece, contribuyendo al desarrollo académico y profesional de los estudiantes de la región sur del departamento.
                     </p>
                     <button class="btn btn-sm btn-outline-primary rounded-pill" onclick="window.location.href='escuelasfiliales'">
                         Más Información

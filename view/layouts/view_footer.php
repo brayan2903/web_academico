@@ -14,6 +14,9 @@
                 <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>
                 <a class="btn btn-link text-white-50" href="comunicados">Eventos</a>
                 <a class="btn btn-link text-white-50" href="noticias">Noticias</a>
+                <a class="btn btn-link text-white-50" href="Biblioteca">Biblioteca</a>
+                <a class="btn btn-link text-white-50" href="Portal">Portal de Investigación</a>
+                <a class="btn btn-link text-white-50" href="Tesis">Tesis UNAP</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Contactenos</h5>

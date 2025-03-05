@@ -117,6 +117,9 @@
                         <div class="dropdown-menu rounded-0 m-0 p-0">
                             <a href="comunicados" class="dropdown-item">Eventos</a>
                             <a href="noticias" class="dropdown-item">Noticias</a>
+                            <a href="Biblioteca" class="dropdown-item">Eventos</a>
+                            <a href="Portal" class="dropdown-item">Noticias</a>
+                            <a href="Tesis" class="dropdown-item">Noticias</a>
                         </div>
                     </div>
                     <a href="servicio" class="nav-item nav-link wow zoomIn" data-wow-delay="0.6s">Servicio</a>
