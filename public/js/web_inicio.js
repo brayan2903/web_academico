@@ -34,7 +34,7 @@ function traer_recientes_comunicados() {
                             </div>
                             <h5 class="mb-3 text-dark fw-bold">${data[i]["com_titulo"]}</h5>
                             <p class="text-muted">${limitarTexto(data[i]["com_descripcion"], 90)}</p>
-                            <a class="text-uppercase text-primary fw-bold" href="documento?id=${data[i]["comunicado_id"]}">VER EVENTO →</a>
+                            <a class="text-uppercase text-primary fw-bold" href="evento?id=${data[i]["comunicado_id"]}">VER EVENTO →</a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ function traer_recientes_oficios() {
                             </div>
                             <h5 class="mb-3 text-dark fw-bold">${data[i]["ofi_titulo"]}</h5>
                             <p class="text-muted">${limitarTexto(data[i]["ofi_descripcion"], 90)}</p>
-                            <a class="text-uppercase text-primary fw-bold" href="documentoOficio?id=${data[i]["oficio_id"]}">VER NOTICIA →</a>
+                            <a class="text-uppercase text-primary fw-bold" href="noticia?id=${data[i]["oficio_id"]}">VER NOTICIA →</a>
                         </div>
                     </div>
                 </div>

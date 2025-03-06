@@ -28,7 +28,7 @@ function mostrar_comunicados_web(pagina_actual = 1, elementos_por_pagina = 5) {
                                             <span class="text-muted">
                                                 <i class="fa-solid fa-calendar-days me-2"></i> ${Calcular_Fecha(data[i]["com_feccreacion"])}
                                             </span>
-                                            <a href="documento?id=${data[i]["comunicado_id"]}" class="btn btn-primary btn-sm">
+                                            <a href="evento?id=${data[i]["comunicado_id"]}" class="btn btn-primary btn-sm">
                                                 <i class="fa-solid fa-eye me-2"></i> Ver Documento
                                             </a>
                                         </div>
@@ -176,7 +176,7 @@ function busqueda_general(){
         var cadena ="";
         if(data.length > 0){
             for(let i=0;i<data.length;i++){
-                cadena +='<a href="documento?id=' + data[i]["comunicado_id"] + '" class="py-1 text-justify" ><p>'+data[i]["com_titulo"]+'</p></a>';
+                cadena +='<a href="evento?id=' + data[i]["comunicado_id"] + '" class="py-1 text-justify" ><p>'+data[i]["com_titulo"]+'</p></a>';
             }
             document.getElementById("search__comunicados").innerHTML = cadena;
         }

@@ -103,12 +103,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            width: 100%;
+            max-width: 150px; /* Tamaño base */
+            transition: transform 0.3s ease-in-out;
         }
 
         .category-logo {
             max-width: 100%;
             height: auto;
-            transition: filter 0.3s ease-in-out;
+            transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
         }
 
         .category-text {
@@ -119,8 +122,43 @@
             text-align: center;
         }
 
+        /* Efecto al pasar el mouse */
         .category-item:hover .category-logo {
             filter: grayscale(100%);
+            transform: scale(1.1); /* Pequeña animación al pasar el mouse */
+        }
+
+        /* 📌 📱 Responsividad para pantallas pequeñas */
+        @media (max-width: 576px) { /* Teléfonos */
+            .category-box {
+                max-width: 120px; /* Reduce tamaño en móviles */
+            }
+
+            .category-text {
+                font-size: 12px; /* Reduce tamaño del texto en móviles */
+            }
+        }
+
+        /* 📌 🖥️ Responsividad para tablets */
+        @media (min-width: 768px) { /* Tablets */
+            .category-box {
+                max-width: 140px; /* Ajuste intermedio */
+            }
+
+            .category-text {
+                font-size: 16px; /* Texto más grande en tablets */
+            }
+        }
+
+        /* 📌 🖥️ Pantallas grandes */
+        @media (min-width: 1200px) { /* Desktops grandes */
+            .category-box {
+                max-width: 180px; /* Aumenta el tamaño del contenedor */
+            }
+
+            .category-text {
+                font-size: 18px; /* Texto más grande para mejor visibilidad */
+            }
         }
     </style>
 
@@ -538,25 +576,28 @@
             mostrar_comunicado_externo();
         });
     </script>
+  
+<style>
+    .job-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    <<style>
-        .job-item {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+.job-item:hover {
+    transform: scale(1.03); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.95); /* Sombra */
+}
 
-    .job-item:hover {
-        transform: scale(1.03); /* Efecto de zoom al pasar el mouse */
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.95); /* Sombra */
-    }
+.job-item img {
+    object-fit: cover; /* Ajusta la imagen dentro de su contenedor */
+    border-radius: 8px;
+    width: 100%; /* Ajuste responsivo */
+    height: auto; /* Evita distorsiones */
+    max-height: 200px; /* Limita la altura en pantallas grandes */
+}
 
-    .job-item img {
-        object-fit: cover; /* Ajusta la imagen dentro de su contenedor */
-        border-radius: 8px;
-    }
-
-    .btn-sm {
-        font-size: 0.9rem; /* Tamaño pequeño del botón */
-    }
+.btn-sm {
+    font-size: 0.9rem; /* Tamaño pequeño del botón */
+}
 
         #particles-js {
             position: relative;
@@ -611,6 +652,41 @@
         .cat-item:hover {
         transform: scale(1.05);
         background-color: rgba(0, 0, 0, 1); /* Fondo más oscuro al pasar el mouse */
+        }
+
+        
+        /* 📌 Responsividad para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .content-header {
+                font-size: 1.5rem;
+                top: 10px;
+            }
+
+            .content-categories {
+                bottom: 20px;
+                width: 95%;
+            }
+
+            .cat-item {
+                width: 45%; /* Cambia a 2 por fila */
+                min-width: 100px;
+                padding: 10px;
+            }
+
+            #particles-js {
+                height: 700px; /* Reduce la altura en móviles */
+            }
+        }
+
+        /* 📌 Responsividad para pantallas extra pequeñas */
+        @media (max-width: 480px) {
+            .cat-item {
+                width: 90%; /* Solo 1 por fila */
+            }
+
+            .content-header {
+                font-size: 1.2rem;
+            }
         }
 
         </style>

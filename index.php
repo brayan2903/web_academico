@@ -368,6 +368,20 @@
                 case "documentoOficio":
                     include "view/modules/documento/" . $_GET["url"] . ".php";
                     break;
+
+
+                case "documento":
+                    include "view/modules/documento/" . $_GET["url"] . ".php";
+                    break;
+                case "documentoOficio":
+                    //aqui nuevo
+                case "evento":
+                    include "view/modules/documento/" . $_GET["url"] . ".php";
+                    break;
+                case "noticia":
+                    include "view/modules/documento/" . $_GET["url"] . ".php";
+                    break;
+                    //hasta aqyu
                 case "reclamos":
                     include "view/modules/reclamos/" . $_GET["url"] . ".php";
                     break;

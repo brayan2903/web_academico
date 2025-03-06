@@ -17,7 +17,7 @@ function mostrar_oficios_web(pagina_actual = 1, elementos_por_pagina = 5) {
                     '<p class="m-0 p-2 text-justify texto">' + data[i]["ofi_descripcion"] + '</p>' +
                     '<ul class="d-flex list-unstyled m-0">' +
                     '<li class="p-2"><i class="fa-solid fa-calendar-days me-2"></i>' + Calcular_Fecha(data[i]["ofi_feccreacion"]) + '</li>' +
-                    '<li class="p-2"><a href="documentoOficio?id=' + data[i]["oficio_id"] + '" class=""><i class="fa-solid fa-eye me-2"></i>Ver Documento</a></li>' +
+                    '<li class="p-2"><a href="noticia?id=' + data[i]["oficio_id"] + '" class=""><i class="fa-solid fa-eye me-2"></i>Ver Documento</a></li>' +
                     '</ul>' +
                     '</div>' +
                     '<div class="col-lg-3">' +
@@ -160,7 +160,7 @@ function busqueda_general(){
         var cadena ="";
         if(data.length > 0){
             for(let i=0;i<data.length;i++){
-                cadena +='<a href="documento?id=' + data[i]["comunicado_id"] + '" class="py-1 text-justify" ><p>'+data[i]["com_titulo"]+'</p></a>';
+                cadena +='<a href="eventos?id=' + data[i]["comunicado_id"] + '" class="py-1 text-justify" ><p>'+data[i]["com_titulo"]+'</p></a>';
             }
             document.getElementById("search__comunicados").innerHTML = cadena;
         }
