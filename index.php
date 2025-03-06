@@ -83,41 +83,120 @@
         </div> -->
         <!-- Spinner End -->
 
-        <!-- Header Start -->
-        <header class="header__box d-flex justify-content-center px-2 justify-content-lg-between">
-            <ul class="infobox d-lg-flex d-none">
-        <li class="iteminfo"><i class="fa-solid fa-phone me-2"></i>+51-987654321</li>
-        <li class="iteminfo"><i class="fa-solid fa-envelope me-2"></i>vra@una.com</li>
-    </ul>
+<!-- Header Start -->
+<style>
+        .header__box {
+            
+            padding: 10px 20px;
+            color: white;
+        }
 
-    <ul class="social-box">
-        <!-- Admisión -->
-        <li class="social-item"><a href="https://admision.unap.edu.pe/index" target="_blank" title="Admisión"><i class="fas fa-user-graduate"></i></a></li>
-        
-        <!-- Trámites -->
-        <li class="social-item"><a href="https://tramites.unap.edu.pe/" target="_blank" title="Trámites"><i class="fas fa-file-alt"></i></a></li>
-        
-        <!-- Biblioteca -->
-        <li class="social-item"><a href="https://biblioteca.unap.edu.pe/opac_css/" target="_blank" title="Biblioteca"><i class="fas fa-book"></i></a></li>
-        
-        <!-- Repositorio -->
-        <li class="social-item"><a href="https://repositorio.unap.edu.pe/" target="_blank" title="Repositorio"><i class="fas fa-database"></i></a></li>
-        
-        <!-- Investigación -->
-        <li class="social-item"><a href="https://vriunap.pe/pilar" target="_blank" title="Portal de Investigación"><i class="fas fa-microscope"></i></a></li>
-        
-        <!-- Aula Virtual -->
-        <li class="social-item"><a href="https://aulavirtual2.unap.edu.pe/login?ReturnUrl=%2F" target="_blank" title="Aula Virtual"><i class="fas fa-chalkboard-teacher"></i></a></li>
-        
-        <!-- Intranet -->
-        <li class="social-item"><a href="https://surl.lu/ckeqrx" target="_blank" title="Intranet"><i class="fas fa-network-wired"></i></a></li>
-        
-        <!-- Admin -->
-        <li class="social-item"><a href="admin" title="Administración"><i class="fas fa-user-cog"></i></a></li>
-    </ul>
+        .infobox {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
 
-        </header>
-        <!-- Header End -->
+        .iteminfo {
+            font-size: 14px;
+            color: white;
+        }
+
+        .iteminfo i {
+            color: #ffcc00;
+        }
+
+        .social-box {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .social-item {
+            margin: 0 10px;
+            position: relative;
+        }
+
+        .social-item a {
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-item a:hover {
+            color: #ffcc00;
+        }
+
+        .social-item a::after {
+            content: attr(title);
+            position: absolute;
+            bottom: 0%;
+            left: -150%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .social-item a:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        @media (max-width: 991.98px) {
+            .infobox {
+                display: none;
+            }
+
+            .social-box {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header__box d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between px-2">
+        <ul class="infobox d-lg-flex d-none align-items-center">
+            <li class="iteminfo me-3"><i class="fa-solid fa-phone me-2"></i>+51-987654321</li>
+            <li class="iteminfo"><i class="fa-solid fa-envelope me-2"></i>vra@una.com</li>
+        </ul>
+
+        <ul class="social-box d-flex justify-content-center justify-content-lg-end">
+            <!-- Admisión -->
+            <li class="social-item"><a href="https://admision.unap.edu.pe/index" target="_blank" title="Admisión"><i class="fas fa-user-graduate"></i></a></li>
+            
+            <!-- Trámites -->
+            <li class="social-item"><a href="https://tramites.unap.edu.pe/" target="_blank" title="Trámites"><i class="fas fa-file-alt"></i></a></li>
+            
+            <!-- Biblioteca -->
+            <li class="social-item"><a href="https://biblioteca.unap.edu.pe/opac_css/" target="_blank" title="Biblioteca"><i class="fas fa-book"></i></a></li>
+            
+            <!-- Repositorio -->
+            <li class="social-item"><a href="https://repositorio.unap.edu.pe/" target="_blank" title="Repositorio"><i class="fas fa-database"></i></a></li>
+            
+            <!-- Investigación -->
+            <li class="social-item"><a href="https://vriunap.pe/pilar" target="_blank" title="Portal de Investigación"><i class="fas fa-microscope"></i></a></li>
+            
+            <!-- Aula Virtual -->
+            <li class="social-item"><a href="https://aulavirtual2.unap.edu.pe/login?ReturnUrl=%2F" target="_blank" title="Aula Virtual"><i class="fas fa-chalkboard-teacher"></i></a></li>
+            
+            <!-- Intranet -->
+            <li class="social-item"><a href="https://surl.lu/ckeqrx" target="_blank" title="Intranet"><i class="fas fa-network-wired"></i></a></li>
+            
+            <!-- Admin -->
+            <li class="social-item"><a href="admin" title="Administración"><i class="fas fa-user-cog"></i></a></li>
+        </ul>
+    </header>
+<!-- Header End -->
+
+
 
 
 
