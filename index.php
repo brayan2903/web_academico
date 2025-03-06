@@ -55,7 +55,7 @@
         font-size: 0.875rem !important;
         }
         .goog-te-gadget-simple {
-        border-radius: 4px !important;
+        border-radius: 2px !important;
         border: 1px solid #ced4da !important;
         padding: 0.25rem 0.5rem !important;
         background-color: white !important;
@@ -164,8 +164,9 @@
 <body>
     <header class="header__box d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between px-2">
         <ul class="infobox d-lg-flex d-none align-items-center">
-            <li class="iteminfo me-3"><i class="fa-solid fa-phone me-2"></i>+51-987654321</li>
-            <li class="iteminfo"><i class="fa-solid fa-envelope me-2"></i>vra@una.com</li>
+            <li class="iteminfo me-3"><i class="fa-solid fa-phone me-2"></i>(123) 456-78</li>
+            <li class="iteminfo"><i class="fa-solid fa-envelope me-2"></i>vracademico@unap.edu.pe</li>
+            
         </ul>
 
         <ul class="social-box d-flex justify-content-center justify-content-lg-end">
@@ -189,21 +190,17 @@
             
             <!-- Intranet -->
             <li class="social-item"><a href="https://surl.lu/ckeqrx" target="_blank" title="Intranet"><i class="fas fa-network-wired"></i></a></li>
-            
-            <!-- Admin -->
-            <li class="social-item"><a href="admin" title="Administración"><i class="fas fa-user-cog"></i></a></li>
+            <div class="language-container">
+                            <div id="google_translate_element" class="language-selector"></div>
+                        </div>
         </ul>
     </header>
 <!-- Header End -->
 
-
-
-
-
         <!-- Navbar Start -->
         <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-1 px-lg-2 wow fadeInRight">
-                <img src="./public/img/logo.png" width="190" alt="" class="img-fluid ">
+                <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
             </a>
 
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -259,11 +256,13 @@
                         <!-- Logos en la parte superior -->
                         <div class="logos-container">
                             <a href="https://transparencia.unap.edu.pe/web/" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
-                                <img src="public/img/vra/logo-transparencia.png" class="img-fluid" alt="Logo Transparencia" width="120">
+                                <img src="public/img/vra/logo-transparencia.png" class="img-fluid" alt="Logo Transparencia" width="150">
                             </a>
                             <a href="https://surl.li/kwjyfq" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
-                                <img src="public/img/vra/logo-portal-transparencia.png" class="img-fluid" alt="Logo Portal Transparencia" width="120">
+                                <img src="public/img/vra/logo-portal-transparencia.png" class="img-fluid" alt="Logo Portal Transparencia" width="150">
                             </a>
+                            
+                            
                         </div>
                         <!-- Selector de idiomas debajo -->
                         <div class="language-container">
