@@ -389,46 +389,46 @@
                     include "view/modules/documentos/" . $_GET["url"] . ".php";
                     break;
                     
-                case "nosotros":
+                case "nosotrosxx":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
                     break;
-                case "directorio":
+                case "directorioxx":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
                     break;
-                case "documentosdegestion":
+                case "documentosdegestionxx":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
                     break;
-                case "organigrama":
+                case "organigramaxx":
                     include "view/modules/institucional/" . $_GET["url"] . ".php";
                     break;
-                case "administracion":
+                case "administracionxx":
                     include "view/modules/administracion/" . $_GET["url"] . ".php";
                     break;
-                case "gestionInstitucional":
+                case "gestionInstitucionalxx":
                     include "view/modules/gestionInstitucional/" . $_GET["url"] . ".php";
                     break;
-                case "gestionPedagogica":
+                case "gestionPedagogicaxx":
                     include "view/modules/gestionPedagogica/" . $_GET["url"] . ".php";
                     break;
-                case "asesoriaJuridica":
+                case "asesoriaJuridicaxx":
                     include "view/modules/asesoriaJuridica/" . $_GET["url"] . ".php";
                     break;
-                case "convocatorias":
+                case "convocatoriasxx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "convocatoriasCas":
+                case "convocatoriasCasxx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "convocatoriasDocente":
+                case "convocatoriasDocentexx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "convocatoriasAuxiliar":
+                case "convocatoriasAuxiliarxx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "convocatoriasDirectivos":
+                case "convocatoriasDirectivosxx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
-                case "convocatoriasCap":
+                case "convocatoriasCapxx":
                     include "view/modules/convocatorias/" . $_GET["url"] . ".php";
                     break;
                 case "eventos":
@@ -437,7 +437,7 @@
                 case "noticias":
                     include "view/modules/oficios/" . $_GET["url"] . ".php";
                     break;
-                case "servicio":
+                case "servicioxx":
                     include "view/modules/servicio/" . $_GET["url"] . ".php";
                     break;
                 case "documento":
@@ -460,7 +460,7 @@
                     include "view/modules/documento/" . $_GET["url"] . ".php";
                     break;
                     //hasta aqyu
-                case "reclamos":
+                case "reclamosxx":
                     include "view/modules/reclamos/" . $_GET["url"] . ".php";
                     break;
                 case "admin":
@@ -521,7 +521,7 @@
     <div class="container">
         <div class="copyright d-flex justify-content-center">
             <div class="row justify-content-center">
-                <span>Copyright <i class="fa-regular fa-copyright w-auto"></i> 2023<a href="./"> VRA UNA PUNO</a></span>
+                <span>Copyright <i class="fa-regular fa-copyright w-auto"></i> 2025<a href="./"> VRA UNA PUNO</a></span>
             </div>
         </div>
     </div>

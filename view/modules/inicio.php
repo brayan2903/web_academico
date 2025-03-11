@@ -31,7 +31,7 @@
                 <div class="row g-4 justify-content-center services">
                     <!-- Tarjeta 1 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.1s">
-                        <a class="category-item" href="eventos">
+                        <a class="category-item" href="https://cargaacademica.vra.unap.edu.pe/index.php" target="_blank">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2232/2232688.png" alt="Carga Académica" class="category-logo">
                             </div>
@@ -40,7 +40,7 @@
                     </div>
                     <!-- Tarjeta 2 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.3s">
-                        <a class="category-item" href="noticias">
+                        <a class="category-item" href="https://nivelacioningresante.unap.edu.pe/login" target="_blank">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/3976/3976625.png" alt="Nivelación Ingresantes" class="category-logo">
                             </div>
@@ -49,7 +49,7 @@
                     </div>
                     <!-- Tarjeta 3 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.5s">
-                        <a class="category-item" href="convocatorias">
+                        <a class="category-item" href="https://vra-certificados.unap.edu.pe" target="_blank">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2997/2997243.png" alt="Cursos y Certificados" class="category-logo">
                             </div>
@@ -58,7 +58,7 @@
                     </div>
                     <!-- Tarjeta 4 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.7s">
-                        <a class="category-item" href="#">
+                        <a class="category-item" href="https://capacitaciones.unap.edu.pe/login/" target="_blank">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/2247/2247728.png" alt="Capacitaciones" class="category-logo">
                             </div>
@@ -67,7 +67,7 @@
                     </div>
                     <!-- Tarjeta 5 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="0.9s">
-                        <a class="category-item" href="#">
+                        <a class="category-item" href="http://auladiplomado.unap.edu.pe/" target="_blank">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/4207/4207253.png" alt="Diplomados VRA" class="category-logo">
                             </div>
@@ -76,7 +76,7 @@
                     </div>
                     <!-- Tarjeta 6 -->
                     <div class="services col-lg-2 col-6 animated zoomIn" data-wow-delay="1.1s">
-                        <a class="category-item" href="reclamos">
+                        <a class="category-item" href="#">
                             <div class="category-box">
                                 <img src="https://cdn-icons-png.flaticon.com/512/6195/6195702.png" alt="Asistencia Docentes" class="category-logo">
                             </div>
@@ -109,7 +109,7 @@
         }
 
         .category-logo {
-            max-width: 100%;
+            max-width: 50%;
             height: auto;
             transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
         }
@@ -512,7 +512,7 @@
             <div class="owl-carousel testimonial-carousel">
                 <div class="testimonial-item">
                     <a href="#">
-                        <img src="./public/img/icons/link1.jpg" alt="">
+                        <img src="./public/img/icons/transparencia.png" alt="">
                     </a>
                 </div>
                 <div class="testimonial-item">
@@ -522,29 +522,50 @@
                 </div>
                 <div class="testimonial-item">
                     <a href="#">
-                        <img src="./public/img/icons/link3.jpg" alt="">
+                        <img src="./public/img/icons/inei.png" alt="">
                     </a>
                 </div>
                 <div class="testimonial-item">
+                    <a href="#">
+                        <img src="./public/img/icons/pronabec.png" alt="">
+                    </a>
+                </div>
+                <div class="testimonial-item">
+                    <a href="#">
+                        <img src="./public/img/icons/sis.jpg" alt="">
+                    </a>
+                </div>
+                <div class="testimonial-item">
+                    <a href="#">
+                        <img src="./public/img/icons/sunedu.png" alt="">
+                    </a>
+                </div>
+
+                <!-- <div class="testimonial-item">
+                    <a href="#">
+                        <img src="./public/img/icons/link3.jpg" alt="">
+                    </a>
+                </div> -->
+                <!-- <div class="testimonial-item">
                     <a href="#">
                         <img src="./public/img/icons/link4.jpg" alt="">
                     </a>
-                </div>
-                <div class="testimonial-item">
+                </div> -->
+                <!-- <div class="testimonial-item">
                     <a href="#">
                         <img src="./public/img/icons/link5.jpg" alt="">
                     </a>
-                </div>
-                <div class="testimonial-item">
+                </div> -->
+                <!-- <div class="testimonial-item">
                     <a href="#">
                         <img src="./public/img/icons/link6.jpg" alt="">
                     </a>
-                </div>
-                <div class="testimonial-item">
+                </div> -->
+                <!-- <div class="testimonial-item">
                     <a href="#">
                         <img src="./public/img/icons/link7.jpg" alt="">
                     </a>
-                </div>
+                </div> -->
                 <div class="testimonial-item">
                     <a href="#">
                         <img src="./public/img/icons/link8.jpg" alt="">

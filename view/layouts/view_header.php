@@ -50,7 +50,7 @@
         <!-- Spinner End -->
 
         <!-- Header Start -->
-        <header class="header__box d-flex justify-content-center px-2 justify-content-lg-between">
+        <!-- <header class="header__box d-flex justify-content-center px-2 justify-content-lg-between">
             <ul class="info__box d-lg-flex d-none">
                 <li class="item__info"><i class="fa-solid fa-phone me-2"></i>+51987654321</li>
                 <li class="item__info"><i class="fa-solid fa-envelope me-2"></i>correo@gmail.com</li>
@@ -66,13 +66,13 @@
 
             </ul>
 
-        </header>
+        </header> -->
         <!-- Header End -->
 
 
 
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <!-- <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
             <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5 animated zoomIn">
                 <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
 
@@ -126,5 +126,5 @@
                     <a href="noticias" class="nav-item nav-link wow zoomIn" data-wow-delay="0.7s">Noticias</a>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <!-- Navbar End -->
