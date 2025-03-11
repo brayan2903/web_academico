@@ -87,12 +87,12 @@
             <div class="card border-0 shadow-sm h-100">
                 <div class="card-body text-center p-2">
                     <div class="mb-2">
-                        <img src="./public/img/vra/dips.png" alt="Dirección de Proyección Social" 
+                        <img src="./public/img/vra/default.jpg" alt="Dirección de Proyección Social" 
                              class="img-fluid rounded-circle mb-2 shadow-sm" 
                              style="width: 100px; height: 100px; object-fit: cover;">
                     </div>
-                    <h5 class="card-title text-primary h6 mb-1">M.Sc. Valerio Lorenzo Arpasi</h5>
-                    <p class="text-muted x-small mb-0">Dirección de Proyección Social</p>
+                    <h5 class="card-title text-primary h6 mb-1">Dra. Milder Zanabria Ortega</h5>
+                    <p class="text-muted x-small mb-0">Dirección de Proyección Social y Extensión Cultural</p>
                 </div>
             </div>
         </div>
@@ -100,11 +100,11 @@
             <div class="card border-0 shadow-sm h-100">
                 <div class="card-body text-center p-2">
                     <div class="mb-2">
-                        <img src="./public/img/vra/dibu.png" alt="Dirección de Bienestar Universitario" 
+                        <img src="./public/img/vra/default.jpg" alt="Dirección de Bienestar Universitario" 
                              class="img-fluid rounded-circle mb-2 shadow-sm" 
                              style="width: 100px; height: 100px; object-fit: cover;">
                     </div>
-                    <h5 class="card-title text-primary h6 mb-1">Dr. Jhony Rodriguez Mamani</h5>
+                    <h5 class="card-title text-primary h6 mb-1">M.Sc. Adelaida Giovanna Viza Salas</h5>
                     <p class="text-muted x-small mb-0">Dirección de Bienestar Universitario</p>
                 </div>
             </div>
