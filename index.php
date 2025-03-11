@@ -197,142 +197,156 @@
     </header>
 <!-- Header End -->
 
-        <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-            <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-1 px-lg-2 wow fadeInRight">
-                <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
-            </a>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="./" class="navbar-brand d-flex align-items-center text-center py-0 px-1 px-lg-2 wow fadeInRight">
+        <img src="./public/img/logo.png" width="200" alt="" class="img-fluid ">
+    </a>
 
-            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-4 p-lg-0">
-                    <a href="./" class="nav-item nav-link active animated zoomIn" data-wow-delay="0.1s">Inicio</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-bs-toggle="dropdown" data-wow-delay="0.1s">El VRA</a>
-                        <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="vra" class="dropdown-item">Acerca del VRA</a>
-                            <a href="NuestroVicerrector" class="dropdown-item">Nuestro vicerrector</a>
-                            <a href="misionyvision" class="dropdown-item">Misión y Visión</a>
-                            <a href="organigramvra" class="dropdown-item">Organigrama</a>
-                        </div>
-                    </div>
-                    <a href="autoridades" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Autoridades</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Dependencias</a>
-                        <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="dgea" class="dropdown-item">Dirección de gestión académica</a>
-                            <a href="dad" class="dropdown-item">Dirección de Admisión</a>
-                            <a href="dibu" class="dropdown-item">Dirección de Bienestar Universitaria</a>
-                            <a href="dipec" class="dropdown-item">Dirección de proyección social y extención cultural</a>
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Pregrado</a>
-                        <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="areas" class="dropdown-item">Areas de estudio</a>
-                            <a href="escuelasprofesionales" class="dropdown-item">Escuelas Profesionales</a>
-                            <a href="filiales" class="dropdown-item">Filiales</a>
-                            <a href="departamentos" class="dropdown-item">Departamentos Academicos</a>
-                            <!-- <a href="convocatoriasCap" class="dropdown-item">Directorio</a> -->
-                        </div>
-                    </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">institucionales</a>
-                        <div class="dropdown-menu rounded-0 m-0 p-0">
-                            <a href="eventos" class="dropdown-item">Estatuto</a>
-                            <a href="noticias" class="dropdown-item">Normativa</a>
-                        </div>
-                    </div>
-                    <a href="documentos" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
-                </div>
-
-            </div>
-            <!-- HTML Reorganizado -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto p-lg-0">
-                    <div class="right-aligned-container">
-                        <!-- Logos en la parte superior -->
-                        <div class="logos-container">
-                            <a href="https://transparencia.unap.edu.pe/web/" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
-                                <img src="public/img/vra/logo-transparencia.png" class="img-fluid" alt="Logo Transparencia" width="150">
-                            </a>
-                            <a href="https://surl.li/kwjyfq" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
-                                <img src="public/img/vra/logo-portal-transparencia.png" class="img-fluid" alt="Logo Portal Transparencia" width="150">
-                            </a>
-                            
-                            
-                        </div>
-                        <!-- Selector de idiomas debajo -->
-                        <div class="language-container">
-                            <div id="google_translate_element" class="language-selector"></div>
-                        </div>
-                    </div>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="./" class="nav-item nav-link active animated zoomIn" data-wow-delay="0.1s">Inicio</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-bs-toggle="dropdown" data-wow-delay="0.1s">El VRA</a>
+                <div class="dropdown-menu fit-content rounded-0 m-0 p-0">
+                    <a href="vra" class="dropdown-item">Acerca del VRA</a>
+                    <a href="NuestroVicerrector" class="dropdown-item">Nuestro vicerrector</a>
+                    <a href="misionyvision" class="dropdown-item">Misión y Visión</a>
+                    <a href="organigramvra" class="dropdown-item">Organigrama</a>
                 </div>
             </div>
+            <a href="autoridades" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Autoridades</a>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Dependencias</a>
+                <div class="dropdown-menu fit-content rounded-0 m-0 p-0">
+                    <a href="dgea" class="dropdown-item">Dirección de gestión académica</a>
+                    <a href="dad" class="dropdown-item">Dirección de Admisión</a>
+                    <a href="dibu" class="dropdown-item">Dirección de Bienestar Universitaria</a>
+                    <a href="dipec" class="dropdown-item">Dirección de proyección social y extención cultural</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">Pregrado</a>
+                <div class="dropdown-menu fit-content rounded-0 m-0 p-0">
+                    <a href="areas" class="dropdown-item">Areas de estudio</a>
+                    <a href="escuelasprofesionales" class="dropdown-item">Escuelas Profesionales</a>
+                    <a href="filiales" class="dropdown-item">Filiales</a>
+                    <a href="departamentos" class="dropdown-item">Departamentos Academicos</a>
+                    <!-- <a href="convocatoriasCap" class="dropdown-item">Directorio</a> -->
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle animated zoomIn" data-wow-delay="0.1s" data-bs-toggle="dropdown">institucionales</a>
+                <div class="dropdown-menu fit-content rounded-0 m-0 p-0">
+                    <a href="eventos" class="dropdown-item">Estatuto</a>
+                    <a href="noticias" class="dropdown-item">Normativa</a>
+                </div>
+            </div>
+            <a href="documentos" class="nav-item nav-link animated zoomIn" data-wow-delay="0.1s">Documentos</a>
+        </div>
 
-            <!-- CSS para alinear correctamente -->
-            <style>
-                .right-aligned-container {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-end;
-                    width: 100%;
-                    padding-right: 15px;
-                }
-                
-                .logos-container {
-                    display: flex;
-                    justify-content: flex-end;
-                    margin-bottom: 5px;
-                }
-                
-                .language-container {
-                    width: 100%;
-                    display: flex;
-                    justify-content: flex-end;
-                    margin-top: 5px;
-                }
-                
-                .language-selector {
-                    margin-left: auto;
-                }
-                
-                /* Ajustes específicos para los logos */
-                .logos-container .navbar-brand {
-                    margin-right: 10px;
-                }
-                
-                .logos-container .navbar-brand:last-child {
-                    margin-right: 0;
-                }
-                
-                /* Ajustes adicionales para el widget de Google Translate */
-                .goog-te-gadget {
-                    margin-top: 5px;
-                    margin-bottom: 5px;
-                }
-                
-                /* Ajuste para dispositivos móviles */
-                @media (max-width: 768px) {
-                    .right-aligned-container {
-                        align-items: center;
-                        padding-right: 0;
-                    }
-                    
-                    .logos-container {
-                        justify-content: center;
-                    }
-                    
-                    .language-container {
-                        justify-content: center;
-                    }
-                }
+    </div>
+    <!-- HTML Reorganizado -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-lg-0">
+            <div class="right-aligned-container">
+                <!-- Logos en la parte superior -->
+                <div class="logos-container">
+                    <a href="https://transparencia.unap.edu.pe/web/" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
+                        <img src="public/img/vra/logo-transparencia.png" class="img-fluid" alt="Logo Transparencia" width="150">
+                    </a>
+                    <a href="https://surl.li/kwjyfq" class="navbar-brand d-flex align-items-center text-center py-0 px-2 wow fadeInRight">
+                        <img src="public/img/vra/logo-portal-transparencia.png" class="img-fluid" alt="Logo Portal Transparencia" width="150">
+                    </a>
+                </div>
+                <!-- Selector de idiomas debajo -->
+                <div class="language-container">
+                    <div id="google_translate_element" class="language-selector"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            </style>
-        </nav>
-        <!-- Navbar End -->
+    <!-- CSS para alinear correctamente -->
+    <style>
+        /* Ajuste para el menú desplegable */
+        .dropdown-menu.fit-content {
+            width: auto !important;
+            min-width: fit-content !important;
+            white-space: nowrap;
+            max-width: none !important;
+        }
+        
+        /* Asegura que los elementos del menú ocupen todo el ancho disponible */
+        .dropdown-item {
+            width: 100%;
+            display: block;
+            padding: 0.5rem 1rem;
+            clear: both;
+            white-space: nowrap;
+        }
+        
+        .right-aligned-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            width: 100%;
+            padding-right: 15px;
+        }
+        
+        .logos-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 5px;
+        }
+        
+        .language-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 5px;
+        }
+        
+        .language-selector {
+            margin-left: auto;
+        }
+        
+        /* Ajustes específicos para los logos */
+        .logos-container .navbar-brand {
+            margin-right: 10px;
+        }
+        
+        .logos-container .navbar-brand:last-child {
+            margin-right: 0;
+        }
+        
+        /* Ajustes adicionales para el widget de Google Translate */
+        .goog-te-gadget {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        /* Ajuste para dispositivos móviles */
+        @media (max-width: 768px) {
+            .right-aligned-container {
+                align-items: center;
+                padding-right: 0;
+            }
+            
+            .logos-container {
+                justify-content: center;
+            }
+            
+            .language-container {
+                justify-content: center;
+            }
+        }
+    </style>
+</nav>
+<!-- Navbar End -->
 
         <?php
         if (isset($_GET["url"])) {
@@ -483,9 +497,9 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Institucional</h5>
-                <a class="btn btn-link text-white-50" href="nosotros">Sobre Nosotros</a>
-                <a class="btn btn-link text-white-50" href="directorio">Directorio Institucional</a>
-                <a class="btn btn-link text-white-50" href="documentosdegestion">Documentos de Gestion</a>
+                <a class="btn btn-link text-white-50" href="vra">Sobre Nosotros</a>
+                <a class="btn btn-link text-white-50" href="autoridades">Nuestras Autoridades</a>
+                <a class="btn btn-link text-white-50" href="documentos">Documentos</a>
                 <!-- 
 
                 <h5 class="text-white mb-1">Ver Ubicacion en Google Maps</h5> 
@@ -496,7 +510,7 @@
             
             <div class="col-lg-3 col-md-6">
                 <h5 class="text-white mb-4">Enlaces Rapidos</h5>
-                <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>
+                <!-- <a class="btn btn-link text-white-50" href="convocatorias">Convocatorias</a>-->
                 <a class="btn btn-link text-white-50" href="eventos">Eventos</a>
                 <a class="btn btn-link text-white-50" href="noticias">Noticias</a>
                 <a class="btn btn-link text-white-50" href="https://biblioteca.unap.edu.pe/opac_css/">Biblioteca</a>
